@@ -156,12 +156,10 @@ body {
     height: 125%;
     gap: 15%;
   }
+
   .works {
     display: grid;
-    
     grid-template-rows: auto auto auto auto;
-   
-      
   }
 
   .cardwok-1 {
@@ -202,10 +200,11 @@ body {
     align-items: flex-start;
     width: 100%;
     height: auto;
-    
   }
 
   .project-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     width: 295px;
     height: 36px;
     font-weight: 700;
@@ -223,24 +222,23 @@ body {
     width: 236px;
     height: 32px;
   }
-.client{
-  display: flex;
-flex-direction: row;
-align-items: center;
-padding: 8px 0px;
 
-width: 55px;
-height: 32px;
+  .client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0;
+    width: 55px;
+    height: 32px;
+  }
 
-
-}
-  .client  p{
+  .client p {
     width: 55px;
     height: 16px;
 
     /* Caption / 1 - Bolder */
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -253,120 +251,127 @@ height: 32px;
 
     color: #344563;
   }
-  .counter{
+
+  .counter {
     width: 8px;
-height: 8px;
-
-background: #C1C7D0;
+    height: 8px;
+    background: #c1c7d0;
   }
-  .role{
+
+  .role {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 8px 0px;
-
-width: 88px;
-height: 32px;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0;
+    width: 88px;
+    height: 32px;
   }
-  .role p{
+
+  .role p {
     width: 88px;
     height: 16px;
-    
+
     /* Caption / 1 - Bolder */
-    
-    font-family: 'Poppins';
+
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
+
     /* identical to box height, or 123% */
-    
-    
+
+
     /* Neutrals/N100 */
-    
-    color: #7A869A;
+
+    color: #7a869a;
   }
-  .year{
+
+  .year {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 8px 0px;
-
-width: 29px;
-height: 32px;
-
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0;
+    width: 29px;
+    height: 32px;
   }
-  .year p{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height, or 123% */
+
+  .year p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* identical to box height, or 123% */
 
 
-/* Neutrals/N100 */
+    /* Neutrals/N100 */
 
-color: #7A869A;
+    color: #7a869a;
   }
-  .pri{
+
+  .pri {
     width: 295px;
-height: 76px;
+    height: 76px;
 
-/* Body / 3 */
+    /* Body / 3 */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-/* or 160% */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
 
-
-/* Neutrals/N600 */
-
-color: #344563;
+    /* or 160% */
 
 
+    /* Neutrals/N600 */
+
+    color: #344563;
   }
-  .tags{
+
+  .tags {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
- 
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    width: 214px;
+    height: 24px;
+  }
 
-width: 214px;
-height: 24px;
-  }
-  .tag{
+  .tag {
     list-style-type: none;
-background: #EBEBFF;
-border-radius: 8px;
-display: flex;
-flex-direction: row;
-gap: 25%;
+    background: #ebebff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
   }
-  .btn{
+
+  .btn {
     box-sizing: border-box;
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-gap: 10px;
-width: 126px;
-height: 48px;
-left: 0px;
-top: calc(50% - 48px/2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 126px;
+    height: 48px;
+    left: 0;
 
-/* Primary/B400 */
 
-border: 1px solid #6070FF;
-border-radius: 8px;
+    /* Primary/B400 */
+
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  .Action {
+    width: 295px;
+    height: 72px;
   }
 }
-
-
