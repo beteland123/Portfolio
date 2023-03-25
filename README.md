@@ -127,7 +127,7 @@ I would like to thank my Microvese partner who helped me alot when I struggle to
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/beteland123/prortifolio/blob/main/LICENSE) licensed.
 
 
 
