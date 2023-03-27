@@ -107,7 +107,6 @@
     flex-direction: column;
   }
 
-
   .toolbar {
     display: flex;
     justify-content: space-between;
@@ -166,6 +165,11 @@
     top: 12.875em;
     bottom: 22.625em;
     border-radius: nullpx;
+    margin-bottom: 0;
+  }
+
+  .vector li {
+    padding-right: 0.1em;
   }
 
   .connect {
