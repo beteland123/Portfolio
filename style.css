@@ -1,16 +1,132 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
+  .background {
+    width: 100%;
+    position: absolute;
+  }
+
+  .image {
+    width: 18.4375em;
+    height: 13.75em;
+  }
+
+  .icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  section {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #e5e5e5;
+  }
+
+  .back {
+    background-color: #fff;
+    border-bottom-left-radius: 10%;
+  }
+
+  .headline {
+    background-position: absolute;
+    background-image: url(img/header-shapes\ mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 36.696875em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.125em 1.5em;
+    gap: 0.75em;
+    width: 23.4375vm;
+    height: 37.75em;
+    left: calc(50% - 37.75em / 2);
+    top: 5.75em;
+  }
+
+  .logop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.625em 1.25em;
+    width: 6.25em;
+    height: 1.5em;
+    left: 0.75em;
+    top: calc(50% - 2.5em / 2);
+  }
+
   .mylogo {
     width: 4.75em;
-    height: 12.5em;
+    height: 1.25em;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.125em;
+    line-height: 1.25em;
     display: flex;
     align-items: center;
     text-align: center;
     color: #6070ff;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    height: 2.5em;
+    right: 1.5em;
+    top: calc(50% - 2.5em / 2);
+    border-radius: 0.5em;
+  }
+
+  .linkedin {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    height: 37.75em;
+  }
+
+  .body2 {
+    width: 20.4375em;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #344563;
+    height: 9.125em;
+    left: 1.5em;
+    right: 1.5em;
+    top: 23em;
+    border-radius: nullpx;
+    bottom: 12.75em;
+    margin-top: 0;
+  }
+
+  .vector {
+    width: 10%;
+    height: 8%;
+    gap: 27%;
+    justify-content: center;
+  }
+
+  .linkd {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    flex-direction: row;
+    right: 0;
+    top: 2.75em;
+    bottom: 0;
+    background-color: #fff;
   }
 
   ul {
@@ -48,105 +164,47 @@
   }
 
   .primery-text {
-    font-size: 1.5em;
-    text-align: center;
-    color: #172b4d;
-    align-self: center;
+    gap: 0.5em;
+    width: 20.4375vm;
+    height: 5.375em;
     font-weight: 700;
+    font-size: 2.5em;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+    left: 1.5em;
+    right: 1.5em;
+    top: 12.875em;
+    bottom: 22.625em;
+    border-radius: nullpx;
+    margin-bottom: 0;
   }
 
-  .body2 {
-    text-align: center;
-    color: #344563;
+  .vector li {
+    padding-right: 0.1em;
   }
 
   .connect {
-    color: #7f8cff;
-  }
-
-  .vector {
-    justify-content: center;
-    width: 10%;
-    height: 125%;
-    gap: 15%;
-  }
-
-  body {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  .icon {
-    width: 1.5em;
-    height: 1.5em;
-  }
-
-  .background {
-    width: 100%;
-    position: absolute;
-  }
-
-  .image {
-    width: 100%;
-  }
-
-  nav {
-    width: 2.5em;
-    height: 2.5em;
-    right: 1.5em;
-  }
-
-  .toolbar {
-    top: 1rem;
-    bottom: 0.2em;
-    right: 0;
-    left: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  section {
-    box-sizing: border-box;
-  }
-
-  .headline {
-    background-position: absolute;
-    background-image: url(img/header-shapes\ mobile.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    align-items: flex-start;
-    padding: 6.125em 0.5em;
-    gap: 0.75em;
-    top: 2.75em;
-    display: flex;
-    flex-direction: column;
-    width: 99%;
-  }
-
-  .logop {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.625em 1.25em;
-    width: 100%;
-    height: 2.5em;
-    left: 0.75em;
-  }
-
-  .text {
-    display: flex;
-    flex-direction: column;
-    margin-right: 10%;
+    padding: 0;
+    gap: 0.5em;
+    width: 17.3125em;
+    height: 1.5em;
+    left: 1.5em;
+    right: 14.625em;
+    bottom: 10.5em;
+    top: 32.875em;
+    color: #7f8cff;
   }
 
   .works {
     display: grid;
     grid-template-rows: auto auto auto auto;
     row-gap: 2em;
+    margin-top: 3em;
   }
 
   .cardwok-1 {
@@ -160,6 +218,7 @@
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 0.0625em;
+    margin-left: 2em;
   }
 
   .snapshoot {
@@ -278,13 +337,10 @@
   .pri {
     width: 18.4375em;
     height: 4.75em;
-
-    /* Body / 3 */
-
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 0.9375emx;
+    font-size: 0.9375em;
     line-height: 1.5em;
     color: #344563;
   }
@@ -300,35 +356,36 @@
 
   .tag {
     list-style-type: none;
-    background: #ebebff;
-    border-radius: 0.5em ;
+    border-radius: 0.005em;
     display: flex;
     flex-direction: row;
     gap: 25%;
-    padding-left: 0px;
+    padding-left: 0;
     width: 23.4em;
+  }
+
+  .tag li {
+    background: #ebebff;
   }
 
   .btn {
     box-sizing: border-box;
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 12px;
-    gap: 10px;
-    width: 126px;
-    height: 48px;
+    padding: 0.75em;
+    gap: 0.625em;
+    width: 7.875em;
+    height: 3em;
     left: 0;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
+    border: 0.0625em  solid #6070ff;
+    border-radius: 0.5em;
   }
 
   .Action {
-    width: 295px;
-    height: 72px;
+    width: 18.4375em;
+    height: 4.5em;
+    margin-top: 0.625em;
   }
 
   .about-section {
