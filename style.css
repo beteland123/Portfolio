@@ -1,13 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
-  .background {
+ .background {
     width: 100%;
     position: absolute;
   }
 
   .image {
-    width: 100%;
+    width: 18.4375em;
+    height: 13.75em;
   }
 
   .icon {
@@ -65,6 +66,7 @@
     align-items: center;
     text-align: center;
     color: #6070ff;
+    text-decoration: none;
   }
 
   nav {
@@ -110,11 +112,7 @@
     height: 8%;
     gap: 27%;
     justify-content: center;
-  }
-
-  .linkd {
-    display: flex;
-    flex-direction: column;
+    margin-left: 1em;
   }
 
   .toolbar {
