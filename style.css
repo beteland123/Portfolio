@@ -18,7 +18,6 @@
   section {
     box-sizing: border-box;
   }
-  
   .headline {
     background-position: absolute;
     background-image: url(img/header-shapes\ mobile.png), url(img/header-background-mobile.png);
@@ -35,7 +34,6 @@
     left: calc(50% - 37.75em / 2);
     top: 5.75em;
   }
-  
   .logop {
     display: flex;
     flex-direction: row;
