@@ -154,22 +154,18 @@
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    gap: 12px;
-    width: 327px;
-    height: 552px;
+    gap: 6em;
+    width: 20.4375em;
+    height: 34.5em;
     background: #fff;
-
-    /* Neutrals/N40 */
-
     border: 1px solid #dfe1e6;
-    border-radius: 16px;
+    border-radius: 0.0625em;
   }
 
   .snapshoot {
-    width: 50%;
-    height: 20%;
-    background: url(blog_drbl_4x.png);
-    border-radius: 8px;
+    width: 100%;
+    height: 15%;
+    border-radius: 1.125em;
   }
 
   .leftblock {
@@ -192,11 +188,10 @@
   .project-title {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    width: 295px;
-    height: 36px;
+    height: 1em;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2em;
+    line-height: 2.75em;
     color: #172b4d;
   }
 
@@ -205,9 +200,9 @@
     flex-direction: row;
     align-items: center;
     padding: 0;
-    gap: 12px;
-    width: 236px;
-    height: 32px;
+    gap: 0.75em;
+    width: 14.75em;
+    height: 2em;
   }
 
   .client {
@@ -281,16 +276,16 @@
   }
 
   .pri {
-    width: 295px;
-    height: 76px;
+    width: 18.4375em;
+    height: 4.75em;
 
     /* Body / 3 */
 
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 0.9375emx;
+    line-height: 1.5em;
     color: #344563;
   }
 
@@ -299,17 +294,19 @@
     flex-direction: row;
     align-items: center;
     padding: 0;
-    width: 214px;
-    height: 24px;
+    width: 13.375em;
+    height: 1.5em;
   }
 
   .tag {
     list-style-type: none;
     background: #ebebff;
-    border-radius: 8px;
+    border-radius: 0.5em ;
     display: flex;
     flex-direction: row;
     gap: 25%;
+    padding-left: 0px;
+    width: 23.4em;
   }
 
   .btn {
