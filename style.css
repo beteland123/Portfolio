@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
- .background {
+  .background {
     width: 100%;
     position: absolute;
   }
