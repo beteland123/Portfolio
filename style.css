@@ -69,6 +69,11 @@
     border-radius: 0.5em;
   }
 
+  .linkedin {
+    display: flex;
+    flex-direction: row;
+  }
+
   .text {
     display: flex;
     flex-direction: column;
@@ -93,9 +98,15 @@
   .vector {
     width: 10%;
     height: 8%;
-    gap: 15%;
+    gap: 27%;
     justify-content: center;
   }
+
+  .linkd {
+    display: flex;
+    flex-direction: column;
+  }
+
 
   .toolbar {
     display: flex;
