@@ -66,6 +66,7 @@
     align-items: center;
     text-align: center;
     color: #6070ff;
+    text-decoration: none;
   }
 
   nav {
@@ -111,11 +112,7 @@
     height: 8%;
     gap: 27%;
     justify-content: center;
-  }
-
-  .linkd {
-    display: flex;
-    flex-direction: column;
+    margin-left: 1em;
   }
 
   .toolbar {
