@@ -286,10 +286,17 @@
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
-    line-height: 16px;
+    line-height: 16px
     color: #344563;
+    height: 9.125em;
+    left: 1.5em;
+    right: 1.5em;
+    top: 23em;
+    border-radius: nullpx;
+    bottom: 12.75em;
+    margin-top: 0;
   }
-
+  
   .counter {
     width: 8px;
     height: 8px;
@@ -654,6 +661,6 @@
     height: 4.5em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;  
   }
 }
