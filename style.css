@@ -27,6 +27,7 @@
   .back {
     background-color: #fff;
     border-bottom-left-radius: 10%;
+    width: 25em;
   }
 
   .headline {
