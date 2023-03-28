@@ -288,13 +288,6 @@
     font-size: 13px;
     line-height: 16px;
     color: #344563;
-    height: 9.125em;
-    left: 1.5em;
-    right: 1.5em;
-    top: 23em;
-    border-radius: nullpx;
-    bottom: 12.75em;
-    margin-top: 0;
   }
   
   .counter {
@@ -302,7 +295,7 @@
     height: 8px;
     background: #c1c7d0;
   }
-
+  
   .role {
     display: flex;
     flex-direction: row;
