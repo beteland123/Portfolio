@@ -155,6 +155,8 @@
   .body2,
   .connect,
   .link,
+  .prim-text,
+  .abt,
   .mylogo {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -387,43 +389,67 @@
 
   .about-section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 114px 24px;
-    gap: 24px;
-    width: 375px;
-    height: 1062.15px;
-    top: 3506px;
+flex-direction: column;
+align-items: center;
+padding: 7.125em 1.5em;
+gap: 1.5em;
+
+position: absolute;
+width: 23.4375em;
+height: 66.384375em;
+left: calc(50% - 23.4375em / 2);
+top: 219.125em;
+
   }
 
   .top {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
-    gap: 12px;
-    width: 327px;
-    height: 346px;
+    padding: 0px;
+    gap: 0.75em;
+    
+    width: 20.4375em;
+    height: 21.625em;
   }
+  .prim-text{
+    width: 20.4375em;
+height: 2.1875em;
+font-weight: 700;
+font-size: 40px;
+line-height: 2.5em;
+display: flex;
+align-items: center;
 
+color: #172B4D;
+  }
+.abt{
+  width: 20.4375em;
+height: 9.1875em;
+font-weight: 400;
+font-size: 1em;
+line-height: 1.5em;
+color: #344563;
+}
   .social-media {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    gap: 16px;
-    width: 200px;
-    height: 80px;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1em;
+
+width: 12.5em;
+height: 5em;
   }
 
   .supportingtext {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
-    gap: 8px;
-    width: 117px;
-    height: 24px;
+    padding: 0px;
+    gap: 0.5em;
+    width: 7.3125em;
+    height: 1.5em;
   }
 
   .frame1 {
@@ -431,15 +457,15 @@
     flex-direction: row;
     align-items: center;
     padding: 0;
-    width: 200px;
-    height: 40px;
+    width: 12.5em;
+    height: 2.5em;
   }
 
-  .normal-btn {
+  /*.normal-btn {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 8px;
+    padding: 0.5em;
     width: 40px;
     height: 40px;
   }
@@ -469,78 +495,161 @@
     text-align: center;
     letter-spacing: 0.03em;
   }
-
+*/
   .skill-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    width: 327px;
-    height: 464.15px;
+    padding: 0px;
+    width: 20.4375em;
+    height: 29.009375em;
+    
   }
 
   .frame12 {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0;
-    width: 327px;
-    height: 320.15px;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 20.4375em;
+height: 20.009375em;
   }
 
   .frame7 {
-    width: 327px;
-    height: 72px;
-  }
-
-  .separator {
-    position: absolute;
-    visibility: hidden;
-    height: 1px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .nm-btn {
+    width: 20.4375em;
+    height: 4.5em;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 8px;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 26px;
-  }
+    justify-content: space-around;
 
-  .btnicon {
-    width: 24px;
-    height: 24px;
   }
 
   .union {
-    position: absolute;
-    width: 14px;
-    height: 8px;
-    left: 5px;
-    top: 8px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+
+position: absolute;
+width: 40px;
+height: 40px;
+right: 26px;
+top: calc(50% - 40px/2);
+
+border-radius: 8px;
   }
 
   .lang {
     position: absolute;
-    height: 24px;
-    left: 12px;
-    right: 78px;
+height: 1.5em;
+left: 0.75em;
+right:4.875em;
+top: calc(50% - 1.5em / 2);
+font-weight: 500;
+font-size: 1.25em;
+line-height: 1.5em;
+display: flex;
+align-items: center;
+color: #000000;
 
-    /* Body / 1 - Bolder */
-
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #000;
   }
+  .languages-list{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75em;
+    gap: 0.75em;
+    
+    width: 20.4375em;
+    height: 15.509375em;   
+  }
+  .js{
+    width: 18.9375em;
+height: 4.17em;
+background: #F7F7F9;
+border-radius: 0.5em;
+
+  }
+  .html{
+    width: 18.9375em;
+height: 4.17em;
+
+/* Neutrals/N10 */
+
+background: #F7F7F9;
+border-radius: 0.5em;
+
+  }
+  .css{
+    width: 18.9375em ;
+height: 4.17em;
+
+/* Neutrals/N10 */
+
+background: #F7F7F9;
+border-radius: 0.5em;
+  }
+  .frame8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20.4375em;
+height: 4.5em;
+
+  }
+  .arrow{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0.5em;
+
+position: absolute;
+width: 2.5em;
+height: 2.5em;
+right: 1.625em;
+top: calc(50% - 2.5em /2);
+
+border-radius: 0.5em;
+  }
+  .disabled{
+    width: 1.5em;
+height: 1.5em;
+  }
+  .farme{
+    position: absolute;
+height: 1.5em;
+left: 0.75em;
+right: 4.875em;
+top: calc(50% - 1.5em /2);
+
+/* Body / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12.5em;
+line-height: 1.5em;
+display: flex;
+align-items: center;
+color: #000000;
+  }
+  hr{
+    position: absolute;
+height: 0.0625em;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+/* Neutrals/N40 */
+
+background: #DFE1E6;
+  }
+  .frame9{
+    width: 20.4375em;
+height: 4.5em;
+display: flex;
+flex-direction: row;
+  }
+
 }
