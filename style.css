@@ -473,41 +473,6 @@
     height: 2.5em;
   }
 
-  /* .normal-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0.5em;
-    width: 40px;
-    height: 40px;
-  }
-
-  .aboutbtn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-    width: 162px;
-    height: 48px;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-  }
-
-  .btn-text {
-    width: 138px;
-    height: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-  }
-*/
   .skill-list {
     display: flex;
     flex-direction: column;
