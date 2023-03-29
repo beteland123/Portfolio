@@ -669,8 +669,7 @@
     right: 0;
     bottom: 0;
     width: 20em;
-    background: #fff;
-    size: 0.05em;
+    border-top: 1px solid #fff;
   }
 
   .frame9 {
