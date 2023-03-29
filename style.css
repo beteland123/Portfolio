@@ -477,14 +477,21 @@
     height: 5em;
   }
 
-  .supportingtext {
+  
+  .connecth3{
+    font-size: 1em;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0;
     gap: 0.5em;
-    width: 8.3125em;
+    width: 20.3125em;
     height: 1.5em;
+    left: 1.5em;
+    right: 14.625em;
+    bottom: 10.5em;
+    top: 32.875em;
+    color: #7f8cff;
   }
 
   .frame1 {
