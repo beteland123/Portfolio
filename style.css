@@ -111,7 +111,7 @@
   .vector {
     width: 10%;
     height: 8%;
-    gap: 27%;
+    gap: 40%;
     justify-content: center;
     margin-left: 1em;
   }
@@ -161,6 +161,7 @@
   .frame,
   .lang,
   .btn,
+  .bt,
   .mylogo {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -189,12 +190,13 @@
   }
 
   .connect {
+    font-size: 1em;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0;
     gap: 0.5em;
-    width: 17.3125em;
+    width: 20.3125em;
     height: 1.5em;
     left: 1.5em;
     right: 14.625em;
@@ -217,7 +219,7 @@
     padding: 1em;
     gap: 6em;
     width: 23.4375em;
-    height: 34.5em;
+    height: 38.5em;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 0.0625em;
@@ -230,13 +232,14 @@
     border-radius: 1.125em;
   }
 
-  .leftblock {
+  .leftbloack {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    width: 295px;
-    height: 288px;
+    width: 20.4375em;
+    height: 18em;
+    gap: 0.2em;
   }
 
   .primery {
@@ -255,6 +258,7 @@
     font-size: 2em;
     line-height: 2.75em;
     color: #172b4d;
+    margin-bottom: 1em;
   }
 
   .frame2 {
@@ -276,7 +280,7 @@
     height: 32px;
   }
 
-  .client p {
+  .client h3 {
     width: 55px;
     height: 16px;
 
@@ -305,7 +309,7 @@
     height: 32px;
   }
 
-  .role p {
+  .role h3 {
     width: 88px;
     height: 16px;
 
@@ -328,7 +332,7 @@
     height: 32px;
   }
 
-  .year p {
+  .year h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -346,6 +350,7 @@
     font-size: 0.9375em;
     line-height: 1.5em;
     color: #344563;
+    margin-top: 0;
   }
 
   .tags {
@@ -364,7 +369,7 @@
     flex-direction: row;
     gap: 5%;
     padding-left: 0;
-    width: 23.4em;
+    width: 15.4em;
   }
 
   .tag li {
@@ -385,7 +390,24 @@
     align-items: center;
     padding: 0.75em;
     gap: 0.625em;
-    width: 10.875em;
+    width: 7.875em;
+    height: 3em;
+    left: 0;
+    border: 0.0625em  solid #6070ff;
+    border-radius: 0.5em;
+    margin-left: 0;
+  }
+
+  .bt {
+    font-size: 1em;
+    color: #7f8cff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75em;
+    gap: 0.625em;
+    width: 9.875em;
     height: 3em;
     left: 0;
     border: 0.0625em  solid #6070ff;
@@ -405,7 +427,7 @@
     align-items: center;
     padding: 7.125em 1.5em;
     gap: 7.5em;
-    width: 23.005em;
+    width: 23.437em;
     height: 76.384375em;
     left: calc(50% - 23.4375em / 2);
     top: 219.125em;
@@ -419,20 +441,21 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    gap: 0.75em;
+    gap: 1.75em;
     width: 20.4375em;
-    height: 21.625em;
+    height: 20.625em;
   }
 
   .prim-text {
     width: 20.4375em;
-    height: 2.1875em;
+    height: 0.1875em;
     font-weight: 700;
     font-size: 40px;
     line-height: 2.5em;
     display: flex;
     align-items: center;
     color: #172b4d;
+    margin-top: 1em;
   }
 
   .abt {
@@ -450,7 +473,7 @@
     align-items: flex-start;
     padding: 0;
     gap: 1em;
-    width: 12.5em;
+    width: 20.5em;
     height: 5em;
   }
 
@@ -460,7 +483,7 @@
     align-items: center;
     padding: 0;
     gap: 0.5em;
-    width: 7.3125em;
+    width: 8.3125em;
     height: 1.5em;
   }
 
@@ -646,7 +669,8 @@
     right: 0;
     bottom: 0;
     width: 20em;
-    background: #dfe1e6;
+    background: #fff;
+    size: 0.05em;
   }
 
   .frame9 {
