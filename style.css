@@ -218,7 +218,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    gap: 6em;
+    gap: 0.002em;
     width: 23.4375em;
     height: 38.5em;
     background: #fff;
@@ -226,10 +226,34 @@
     border-radius: 0.0625em;
     margin-left: 0;
   }
+  .snapshoot-1{
+    background-image: url(img/Snapshoot\ Portfolio.png); 
+    background-size: 20.4375em 15.75em;
+    background-repeat: no-repeat;
+  }
+  .snapshoot2{
+    
+    background-image: url(img/Snapshoot\ Portfolio2.png); 
+    background-size: 20.4375em 15.75em;
+    background-repeat: no-repeat;
+  }
+  .snapshoot-3{
+    background-image: url(img/Snapshoot\ Portfolio3.png); 
+    background-size: 20.4375em 15.75em;
+    background-repeat: no-repeat;
+  }
+  .snapshoot-4{
+    background-image: url(img/Snapshoot\ Portfolio4.png); 
+    background-size: 20.4375em 15.75em; 
+    background-repeat: no-repeat;
+  }
 
-  .snapshoot {
+  .snapshoot-1,
+  .snapshoot2,
+  .snapshoot-3,
+  .snapshoot-4 {
     width: 100%;
-    height: 15%;
+    height: 45%;
     border-radius: 1.125em;
   }
 
@@ -249,6 +273,7 @@
     align-items: flex-start;
     width: 100%;
     height: auto;
+    margin-top:0em ;
   }
 
   .project-title {
@@ -260,6 +285,7 @@
     line-height: 2.75em;
     color: #172b4d;
     margin-bottom: 1em;
+    margin-top: 0em;
   }
 
   .frame2 {
@@ -741,6 +767,7 @@ color: #344563;
   left: 8.9375em;
   top: calc(50% - 2.5em / 2);
 }
+.role,
 .contac-p
 .contac-prim,
 .mylogo,
@@ -750,6 +777,7 @@ color: #344563;
 .connect,
 .project-title,
 .pri,
+.year,
 .prim-text,
 .abt,
 .connecth3,
@@ -860,87 +888,127 @@ margin-top: 0em;
   .works{
     display: grid;
     grid-template-rows:  auto auto auto auto;
-    padding: 142px;
-gap: 142px;
-width: 1440px;
-height: 2694px;
-left: 0px;
-top: 917px;
+    padding: 7.75em;
+gap: 8.875em;
+width: 90em;
+height: 168.375em;
+left: 0em;
+top: 57.3125em;
   }
   .cardwok-1{
-    display: flex;
-flex-direction: row;
-align-items: center;
+    display: grid;
+     grid-template-columns: 34em 34em ;
 
-width: 1156px;
-height: 496px;
+width: 72.25em;
+height: 35em;
 
 background: #fff;
-border: 1px solid #dfe1e6;
+border: 0.0625em solid #dfe1e6;
 border-radius: 0.0625em;
 
   }
   .cardwok-2{
-     display: grid;
-     grid-template-columns: auto auto;
+     display: flex;
+     flex-direction: row;
+   
+
+     width: 72.25em;
+     height: 35em;
+     
+     background: #fff;
+     border: 0.0625em solid #dfe1e6;
+     border-radius: 0.0625em;
   }
-.snapshoot{
-width: 544px;
-height: 448px;
-left: 24px;
-top: 24px;
+.snapshoot-1{
+
+left: 1.5em;
+top: 1.5em;
+background-image: url(img/Snapshoot\ Portfolio.svg);
+background-repeat: no-repeat;
+background-size:34em 38em ;
+border-radius: 0.5em;
+height: 100%;
+width: auto
 }
 .snapshoot2{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  width: 544px;
-height: 448px;
-left: 24px;
-top: 24px;
-}
+  order: 1;
+  padding: 1.5em;
+  left: 1.5em;
+  top: 1.5em;
+  background-image: url(img/Snapshoot\ Portfolio2.svg);
+  background-repeat: no-repeat;
+  background-size:32em 28em ;
+  margin-top: 5em;
+  width: 34em;
+ 
+  }
+  .snapshoot-3{
+
+    left: 1.5em;
+    top: 1.5em;
+    background-image: url(img/Snapshoot\ Portfolio3.svg);
+    background-repeat: no-repeat;
+    background-size:32em 28em ;
+    margin-top: 5em;
+    }
+    .snapshoot-4{
+      order: 1;
+      left: 1.5em;
+      top: 1.5em;
+      background-image: url(img/Snapshoot\ Portfolio4.svg);
+      background-repeat: no-repeat;
+      background-size:32em 28em ;
+      margin-top: 5em;
+      width: 34em;
+      
+      }
+     
 .leftbloack{
   display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 24px;
-gap: 24px;
-width: 544px;
-height: 445px;
-left: 590px;
-top: 24px;
+padding-left: 1.5em;
+padding-bottom: 1.5em;
+padding-top: 0em;
+gap: 0.5em;
+width: 34em;
+height: 27.8125em;
+left: 36.875em;
+top: 1.5em;
 
 }
 .leftbloack2{
-  grid-column-start: 1;
-  grid-column-end: 2;
   display: flex;
 flex-direction: column;
-align-items: flex-start;
-padding: 24px;
-gap: 24px;
-width: 544px;
-height: 445px;
-left: 590px;
-top: 24px;
+
+padding: 1.5em;
+gap: 0.5em;
+width: 34em;
+height: 27.8125em;
+left: 1.5em;
+top: 1.5em;
 
 }
 .primery{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-padding: 0px;
-gap: 12px;
+padding: 0em;
+gap: 0.75em;
 
-width: 496px;
-height: 98px;
+width: 31em;
+height: 2.125em;
+margin-bottom: 0em;
 
 }
 .project-title{
-  width: 496px;
-height: 46px;
+  width: 31em;
+height:1.875em ;
 font-weight: 700;
-font-size: 40px;
-line-height: 52px;
+font-size: 2.5em;
+line-height: 3.25em;
+margin-top: 0em;
+margin-bottom: 0em;
 
 color: #091E42;
 }
@@ -948,101 +1016,104 @@ color: #091E42;
   display: flex;
 flex-direction: row;
 align-items: center;
-padding: 0px;
-gap: 12px;
+padding: 0em;
+gap: 0.75em;
 
-width: 297px;
-height: 40px;
+width: 18.5625em;
+height: 2.5em ;
 
 }
 .client{
   display: flex;
 flex-direction: row;
 align-items: center;
-padding: 8px 0px;
+padding: 0.5em 0em;
 
-width: 75px;
-height: 40px;
+width: 4.6875em;
+height: 2.5em;
 
 }
 .counter{
-  width: 8px;
-height: 8px;
+  width: 0.5em;
+height: 0.5em;
 background: #C1C7D0;
 }
 .role{
-  width: 120px;
-height: 24px;
-
-font-family: 'Poppins';
-font-style: normal;
+  width: 7.5em;
+height:  3.5em;
 font-weight: 400;
-font-size: 18px;
-line-height: 24px;
+font-size: 0.5em;
+line-height: 1.5em;
 color: #6B778C;
 }
 .year{
-  width: 38px;
-height: 24px;
-
-font-family: 'Poppins';
-font-style: normal;
+  width: 2.375em;
+height: 3.5em;
 font-weight: 400;
-font-size: 18px;
-line-height: 24px;
+font-size: 1.125em;
+line-height: 1.5em;
 color: #6B778C;
 
 }
 .pri{
-  width: 496px;
-height: 50px;
+  width: 31em;
+height: 3.125em;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1em;
+line-height: 1.5em;
 color: #344563;
+margin-top: 0em;
 
 }
  .tags{
   display: flex;
 flex-direction: row;
 align-items: center;
-padding: 0px;
-gap: 8px;
-
-width: 203px;
-height: 24px;
+padding: 0em;
+width: 1.5em;
+height: 1.5em;
 
  }
  .tag{
   display: flex;
 flex-direction: row;
 align-items: center;
-padding: 4px 12px;
-width: 53px;
-height: 24px;
-background: #EBEBFF;
-border-radius: 8px;
- }
- .Action{
-  width: 496px;
-height: 153px;
 
+width: 3.3125em;
+height: 1.5em;
+border-radius: 0.5em;
+gap: 3em;
+padding-left: 0em;
+ }
+ .tag li {
+  background: #ebebff;
+  box-sizing: border-box;
+  border-radius: 1.5625em;
+  color: #7f8cff;
+  width: 6.25em;
+  padding-left: 1em;
+}
+ .Action{
+  width: 18.4375em;
+  height: 4.5em;
+  margin-top: 0.625em;
  }
  .btn{
-  display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-gap: 10px;
-width: 126px;
-height: 48px;
-left: 0px;
-top: 16px;
-
-/* Primary/B400 */
-
-border: 1px solid #6070FF;
-border-radius: 8px;
+  font-size: 1em;
+    color: #7f8cff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75em;
+    gap: 0.625em;
+    width: 7.875em;
+    height: 3em;
+    left: 0;
+    border: 0.0625em  solid #6070ff;
+    border-radius: 0.5em;
+    margin-left: 0;
+    background-color: white;
  }
  .about-section{
   background-color: #fff;
@@ -1056,18 +1127,18 @@ border-radius: 8px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-gap: 12px;
+padding: 0em;
+gap: 0.75em;
 
-width: 447px;
-height: 239px;
+width: 27.9375em;
+height: 14.9375em;
  }
  .prim-text{
-  width: 447px;
-height: 33px;
+  width: 27.9375em;
+height: 2.0625em;
 font-weight: 700;
-font-size: 40px;
-line-height: 52px;
+font-size: 2.5em;
+line-height: 3.25em;
 
 display: flex;
 align-items: center;
@@ -1076,11 +1147,11 @@ color: #091E42;
 
  }
  .abt{
-  width: 447px;
-height: 102px;
+  width: 27.9375em;
+height: 6.375em;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1em;
+line-height: 1.5em;
 color: #344563;
 
  }
@@ -1088,28 +1159,25 @@ color: #344563;
   display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-gap: 16px;
+padding: 0em;
+gap: 1em;
 
-width: 200px;
-height: 80px;
+width: 12.5em;
+height: 5em;
  }
  .connecth3{
-  width: 117px;
-height: 24px;
+  width: 7.3125em;
+height: 1.5em;
 font-weight: 500;
-font-size: 16px;
-line-height: 24px;
+font-size: 1em;
+line-height: 1.5em;
 color: #7F8CFF;
  }
- .Action{
-  width: 162px;
-height: 48px;
- }
+ 
  .bt{
 font-weight: 500;
-font-size: 17px;
-line-height: 24px;
+font-size: 1.0625em;
+line-height: 1.5em;
 display: flex;
 align-items: center;
 text-align: center;
@@ -1126,19 +1194,19 @@ color: #396DF2;
  .frame12{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625em ;
   
  }
  .frame7{
   display: flex;
   flex-direction: row;
-  gap: 10x;
+  gap: 0.625em;
   justify-content: space-around;
  }
  .languages-list ul{
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 6.25em;
   
  }
  li{
@@ -1156,13 +1224,13 @@ color: #396DF2;
   right: 0;
   bottom: 0;
   width: 20em;
-  border-top: 1px solid #fff;
+  border-top: 0.0625em solid #fff;
 }
 .contact{
-width: 1440px;
-height: 846px;
-left: 0px;
-top: 5125px;
+width: 90em;
+height: 52.875em;
+left: 0em;
+top: 320.3125em;
 
 /* Primary/B400 */
 border-top-left-radius: 10%;
@@ -1170,11 +1238,11 @@ background: #6070FF;
 
 }
 .conatc-prim{
-  width: 801px;
-height: 56px;
+  width: 50.0625em;
+height: 3.5em;
 font-weight: 700;
-font-size: 40px;
-line-height: 52px;
+font-size: 2.5em;
+line-height: 3.25em;
 /* or 130% */
 
 display: flex;
@@ -1186,22 +1254,22 @@ text-align: center;
 color: #FFFFFF;
 }
 .conatc-p{
-  width: 569px;
-height: 102px;
+  width: 35.5625em;
+height: 6.375em;
 font-weight: 400;
-font-size: 20px;
-line-height: 28px;
+font-size: 1.25em;
+line-height: 1.75em;
 text-align: center;
 color: #EBEBFF;
 
 
 }
 .input{
-  width: 447px;
-height: 48px;
+  width: 27.9375em;
+height: 3em;
 }
 textarea{
-  width: 447px;
-height: 170px;
+  width: 27.9375em;
+height: 10.625em;
 }
 }
