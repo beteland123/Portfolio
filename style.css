@@ -685,4 +685,10 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .contact{
+  width:23.4375em ;
+  background-image: url(img/Contact\ me.svg);
+  display: flex;
+  flex-direction: column;
+  }
 }
