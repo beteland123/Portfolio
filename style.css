@@ -685,10 +685,87 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .contact{
-  width:23.4375em ;
-  background-image: url(img/Contact\ me.svg);
-  display: flex;
-  flex-direction: column;
+
+  .contact {
+    width: 23.4375em;
+    height: 48.6875em;
+    left: 0;
+    top: 338.125em;
+    border-radius: [object object]px;
+    background-image: url(img/Contact\ me.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 0;
+  }
+
+  .contact-prim {
+    width: 50.0625em;
+    height: 3.5em;
+    left: -13.3125em;
+    top: 295.875em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 3.25em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding-left: 1em;
+  }
+
+  .contact-body {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 18.4375em;
+    height: 20.4375em;
+    left: 1.5em;
+    top: 300.125em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.75em;
+    text-align: center;
+    color: #ebebff;
+    margin-bottom: 0;
+  }
+
+  #name,
+  #mail {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    border: 0.0625em solid #cfd8dc;
+    border-radius: 0.5em;
+    height: 3em;
+width: 20.4375em;
+left: 0px;
+top: 0px;
+border-radius: 0.5em;
+
+  }
+
+  #name placeholder{
+
+  }
+
+  #txtarea {
+    height: 170px;
+    width: 327px;
+    left: 24px;
+    top: 5125px;
+    border-radius: 0;
   }
 }
