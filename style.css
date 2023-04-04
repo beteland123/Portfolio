@@ -1,6 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
+  .TO-BE-HIDDEN,#TO-BE-HIDDEN{
+    display: none;
+  }
   .background {
     width: 100%;
     position: absolute;
@@ -695,7 +698,7 @@
     margin-left: 0;
     padding: 0.625em 0.25em;
   }
-
+ 
   hr {
     height: 0.0625em;
     left: 0;
@@ -717,6 +720,12 @@
   display:none;
 }
 @media only screen and (min-width: 768px) {
+  .DESKTOP-HIDDEN,
+  #DESKTOP-HIDDEN{
+    display: none;
+    
+   }
+   
   body {
     background: #e5e5e5;
     
@@ -987,6 +996,7 @@ width: 34em;
 height: 27.8125em;
 left: 1.5em;
 top: 1.5em;
+margin-top: 0em;
 
 }
 .primery{
@@ -1028,9 +1038,12 @@ height: 2.5em ;
 flex-direction: row;
 align-items: center;
 padding: 0.5em 0em;
-
+color: #344563;
 width: 4.6875em;
-height: 2.5em;
+height: 1.5em;
+font-weight: 500;
+line-height: 1.6em;
+margin-right: 2em;
 
 }
 .counter{
@@ -1057,7 +1070,7 @@ color: #6B778C;
 }
 .pri{
   width: 31em;
-height: 3.125em;
+height: 5.625em;
 font-weight: 400;
 font-size: 1em;
 line-height: 1.5em;
@@ -1074,6 +1087,25 @@ width: 1.5em;
 height: 1.5em;
 
  }
+ ul .TO-BE-HIDDEN{
+  width: 2000.0625em  ;
+height: 1em;
+
+/* Button / Small */
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 0.75em;
+line-height: 1em;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Primary/B400 */
+
+color: #6070FF;
+ }
  .tag{
   display: flex;
 flex-direction: row;
@@ -1082,7 +1114,7 @@ align-items: center;
 width: 3.3125em;
 height: 1.5em;
 border-radius: 0.5em;
-gap: 3em;
+gap: 1em;
 padding-left: 0em;
  }
  .tag li {
