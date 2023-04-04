@@ -692,7 +692,8 @@
     left: 0;
     top: 338.125em;
     border-radius: [object object]px;
-    background-image: url(img/Contact\ me.svg);
+    background-image: url(img/contact\ form\ shapes-mobile.svg),
+      url(img/Contact\ me.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     display: flex;
@@ -757,7 +758,12 @@
     border-radius: 0.5em;
   }
 
-  #name placeholder {
+  #name::placeholder {
+    color: #172b4d;
+  }
+
+  #mail::placeholder {
+    color: #172b4d;
   }
 
   #txtarea {
