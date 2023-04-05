@@ -21,7 +21,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [project_name] <a name="about-project"></a>
+# 📖 [My-portifolio] <a name="about-project"></a>
 
 This project is called <h3>My portiflo<h3>
 which is developed for the purpose of Designing a prortiflio website and for practicing what I have learned about 
@@ -43,7 +43,7 @@ responsive mobile , media screen and flexbox.
 - **[it has responsive nanture with differnet screen]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link] https://github.com/beteland123/My-Portfolio
+- [Live Demo Link] not avaliable
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +84,8 @@ inspect the website if is responsive using diffrent scrren size
 
 👤 **Betel Andarge**
 
-- GitHub: [beteland123]
+- GitHub: [https://github.com/beteland123]
+-Linkedin-[https://www.linkedin.com/in/betel-andarge-1b9446223]
 
 
 ## 🔭 Future Features <a name="future-features"></a>
