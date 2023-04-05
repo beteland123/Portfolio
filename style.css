@@ -1731,6 +1731,11 @@ label {
   }
 
   .get-in-touch :hover {
-    box-shadow: #020736;
+    box-shadow: #4053fc;
+  }
+
+  #blue-btn {
+    background: #4053fc;
+    color: #fff;
   }
 }
