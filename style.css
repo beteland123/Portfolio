@@ -1096,7 +1096,7 @@ label {
     height: 57.25em;
     left: 0;
     top: 0.0625em;
-    margin-left: 1em;
+    margin-right: 0;
   }
 
   .headline {
@@ -1180,6 +1180,7 @@ label {
   }
 
   .works {
+    margin-left: 2em;
     display: grid;
     grid-template-rows: auto auto auto auto;
     padding: 7.75em;
@@ -1196,7 +1197,7 @@ label {
     display: grid;
     grid-template-columns: 34em 34em;
     width: 72.25em;
-    height: 35em;
+    height: 31em;
     background: #fff;
     border: 0.0625em solid #dfe1e6;
     border-radius: 0.0625em;
@@ -1206,7 +1207,7 @@ label {
     display: flex;
     flex-direction: row;
     width: 72.25em;
-    height: 35em;
+    height: 31em;
     background: #fff;
     border: 0.0625em solid #dfe1e6;
     border-radius: 0.0625em;
@@ -1217,7 +1218,7 @@ label {
     top: 1.5em;
     background-image: url(img/Snapshoot\ Portfolio.svg);
     background-repeat: no-repeat;
-    background-size: 34em 38em;
+    background-size: 34em 30em;
     border-radius: 0.5em;
     max-width: 100%;
   }
@@ -1229,8 +1230,7 @@ label {
     top: 1.5em;
     background-image: url(img/Snapshoot\ Portfolio2.svg);
     background-repeat: no-repeat;
-    background-size: 32em 28em;
-    margin-top: 5em;
+    background-size: 34em 30em;
     width: 34em;
   }
 
@@ -1239,8 +1239,7 @@ label {
     top: 1.5em;
     background-image: url(img/Snapshoot\ Portfolio3.svg);
     background-repeat: no-repeat;
-    background-size: 32em 28em;
-    margin-top: 5em;
+    background-size: 34em 30em;
   }
 
   .snapshoot-4 {
@@ -1249,8 +1248,7 @@ label {
     top: 1.5em;
     background-image: url(img/Snapshoot\ Portfolio4.svg);
     background-repeat: no-repeat;
-    background-size: 32em 28em;
-    margin-top: 5em;
+    background-size: 34em 30em;
     width: 34em;
   }
 
@@ -1261,9 +1259,9 @@ label {
     padding-left: 1.5em;
     padding-bottom: 1.5em;
     padding-top: 0;
-    gap: 0.5em;
+    gap: 0.3em;
     width: 34em;
-    height: 27.8125em;
+    height: 21.8125em;
     left: 36.875em;
     top: 1.5em;
   }
@@ -1271,10 +1269,12 @@ label {
   .leftbloack2 {
     display: flex;
     flex-direction: column;
-    padding: 1.5em;
-    gap: 0.5em;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+    padding-top: 0;
+    gap: 0.3em;
     width: 34em;
-    height: 27.8125em;
+    height: 21.8125em;
     left: 1.5em;
     top: 1.5em;
     margin-top: 0;
@@ -1289,6 +1289,7 @@ label {
     width: 31em;
     height: 2.125em;
     margin-bottom: 0;
+    margin-top: 0;
   }
 
   .project-title {
@@ -1316,6 +1317,7 @@ label {
   }
 
   .client {
+    font-size: 1.125em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1324,27 +1326,44 @@ label {
     width: 4.6875em;
     height: 1.5em;
     font-weight: 500;
-    line-height: 1.6em;
+    line-height: 1.5em;
     margin-right: 2em;
-    padding-top: 1em;
+    padding-top: 3em;
+  }
+
+  .client2 {
+    font-size: 1.125em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5em 0;
+    color: #344563;
+    width: 4.6875em;
+    height: 1.5em;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-right: 0;
+    padding-top: 3em;
   }
 
   .counter {
+    margin-top: 1em;
     width: 0.5em;
-    height: 0.5em;
+    height: 0.05em;
     background: #c1c7d0;
   }
 
   .role {
     min-width: 7.5em;
-    height: 3.5em;
+    height: 1.5em;
     font-weight: 400;
-    font-size: 0.5em;
+    font-size: 1.125em;
     line-height: 1.5em;
     color: #6b778c;
   }
 
   .year {
+    padding-top: 2em;
     width: 2.375em;
     height: 3.5em;
     font-weight: 400;
@@ -1379,7 +1398,7 @@ label {
     width: 10.3125em;
     height: 1.5em;
     border-radius: 0.5em;
-    gap: 1em;
+    gap: 0.5em;
     padding-left: 0;
     flex-wrap: nowrap;
   }
@@ -1389,7 +1408,7 @@ label {
     box-sizing: border-box;
     border-radius: 1.5625em;
     color: #7f8cff;
-    min-width: 6.25em;
+    min-width: 5.25em;
     padding-left: 1em;
     display: flex;
     flex-direction: row;
@@ -1413,7 +1432,7 @@ label {
 
   .btn {
     font-size: 1em;
-    color: #7f8cff;
+    color: #396df2;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -1427,6 +1446,11 @@ label {
     border-radius: 0.5em;
     margin-left: 0;
     background-color: white;
+    font-weight: 500;
+  }
+
+  #ctop {
+    margin-top: 0.5em;
   }
 
   .about-section {
