@@ -734,7 +734,7 @@
       url(img/contact\ form\ shapes-mobile.svg),
       url(img/Contact\ me.svg);
     background-repeat: no-repeat;
-    background-size: 100%  auto;
+    background-size: 100% auto;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -853,7 +853,7 @@
     url(img/contact\ form\ shapes-mobile.svg),
     url(img/Contact\ me.svg);
   background-repeat: no-repeat;
-  background-size: 100%  auto;
+  background-size: 100% auto;
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -989,7 +989,7 @@ label {
   ul .TO-BE-HIDDEN {
     width: 2000.0625em;
     height: 1em;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.75em;
@@ -1072,7 +1072,7 @@ label {
   .abt,
   .connecth3,
   .bt {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
   }
 
@@ -1457,11 +1457,17 @@ label {
     width: 7.875em;
     height: 3em;
     left: 0;
-    border: 0.0625em  solid #6070ff;
+    border: 0.0625em solid #6070ff;
     border-radius: 0.5em;
     margin-left: 0;
     background-color: white;
     font-weight: 500;
+    transition: color 0.5s ease, rotate 2s;
+  }
+
+  .btn:hover {
+    color: #0d10bd;
+    rotate: 360deg;
   }
 
   #ctop {
@@ -1647,7 +1653,7 @@ label {
     left: 1.5em;
     right: 4.875em;
     top: calc(50% - 1.5em / 2);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.25em;
@@ -1795,5 +1801,16 @@ label {
   #blue-btn {
     background: #4053fc;
     color: #fff;
+  }
+
+  /* animation on h1 */
+
+  h1 {
+    color: #091e42;
+    transition: color 0.5s ease;
+  }
+
+  h1:hover {
+    color: #4053fc;
   }
 }
