@@ -730,7 +730,8 @@
     left: 0;
     top: 338.125em;
     border-radius: [object object]px;
-    background-image: url(img/contact\ form\ shapes-mobile.svg),
+    background-image:
+      url(img/contact\ form\ shapes-mobile.svg),
       url(img/Contact\ me.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -848,7 +849,8 @@
   left: 0;
   top: 338.125em;
   border-radius: [object object]px;
-  background-image: url(img/contact\ form\ shapes-mobile.svg),
+  background-image:
+    url(img/contact\ form\ shapes-mobile.svg),
     url(img/Contact\ me.svg);
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -1460,6 +1462,12 @@ label {
     margin-left: 0;
     background-color: white;
     font-weight: 500;
+    transition: color 0.5s ease, rotate 2s;
+  }
+
+  .btn:hover {
+    color: #0d10bd;
+    rotate: 360deg;
   }
 
   #ctop {
@@ -1671,7 +1679,8 @@ label {
     left: 0;
     top: 320.3125em;
     border-radius: [object object]px;
-    background-image: url(img/mini-contact-img.svg),
+    background-image:
+      url(img/mini-contact-img.svg),
       url(img/contact\ form-\ background-shape-desktop.svg);
     background-repeat: no-repeat;
     background-size: 65em 44.91875em, 90em 52.875em;
@@ -1794,7 +1803,7 @@ label {
     color: #fff;
   }
 
-  /*animation on h1*/
+  /* animation on h1 */
 
   h1 {
     color: #091e42;
