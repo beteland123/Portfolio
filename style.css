@@ -1113,7 +1113,7 @@ label {
     flex-direction: column;
     align-items: flex-start;
     padding-top: 10.125em;
-    padding-left: 13.25em;
+    padding-left: 11.25em;
     gap: 0.075em;
     width: 57.5em;
     height: 16.75em;
@@ -1121,11 +1121,11 @@ label {
   }
 
   .primery-text {
-    width: 57.5em;
+    width: 9.5em;
     height: 7.625em;
     font-weight: 700;
     font-size: 3em;
-    line-height: 3.75em;
+    line-height: 1.75em;
     display: flex;
     align-items: center;
     letter-spacing: 0.023125em;
@@ -1134,7 +1134,7 @@ label {
   }
 
   .body2 {
-    width: 47.5em;
+    width: 45.5em;
     height: 6.125em;
     font-weight: 400;
     font-size: 1.25em;
@@ -1401,7 +1401,7 @@ label {
   .Action {
     width: 18.4375em;
     height: 4.5em;
-    margin-top: 0.625em;
+    margin-top: 4em;
   }
 
   .btn {
@@ -1660,7 +1660,8 @@ label {
   }
 
   .contact-body {
-    width: 35.5625em;
+    padding-left: 4em;
+    width: 28.5625em;
     height: 6.375em;
     left: 1.5em;
     top: 300.125em;
