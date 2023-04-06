@@ -1180,7 +1180,7 @@ label {
   }
 
   .works {
-    margin-left: 2em;
+    justify-content: center;
     display: grid;
     grid-template-rows: auto auto auto auto;
     padding: 7.75em;
@@ -1194,6 +1194,7 @@ label {
   }
 
   .cardwok-1 {
+    justify-content: center;
     display: grid;
     grid-template-columns: 34em 34em;
     width: 72.25em;
@@ -1204,6 +1205,7 @@ label {
   }
 
   .cardwok-2 {
+    justify-content: center;
     display: flex;
     flex-direction: row;
     width: 72.25em;
@@ -1221,7 +1223,6 @@ label {
     background-size: 34em 30em;
     border-radius: 0.5em;
     max-width: 100%;
-    margin-left: 0.5em;
   }
 
   .snapshoot2 {
@@ -1241,7 +1242,6 @@ label {
     background-image: url(img/Snapshoot\ Portfolio3.svg);
     background-repeat: no-repeat;
     background-size: 34em 30em;
-    margin-left: 0.5em;
   }
 
   .snapshoot-4 {
@@ -1410,11 +1410,24 @@ label {
     box-sizing: border-box;
     border-radius: 1.5625em;
     color: #7f8cff;
-    min-width: 5.25em;
     padding-left: 1em;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+  }
+
+  #html,
+  #css {
+    min-width: 3.25em;
+  }
+
+  #abt-btn {
+    margin-top: 0;
+  }
+
+  #js,
+  #ruby {
+    min-width: 5.25em;
   }
 
   #ruby {
@@ -1471,10 +1484,13 @@ label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 3em;
     gap: 0.75em;
     width: 27.9375em;
     height: 14.9375em;
+    padding-left: 1em;
+    padding-top: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
   }
 
   .prim-text {
@@ -1540,6 +1556,7 @@ label {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
+    height: 14.9375em;
   }
 
   .languages-list {
