@@ -1200,7 +1200,7 @@ label {
     height: 31em;
     background: #fff;
     border: 0.0625em solid #dfe1e6;
-    border-radius: 0.0625em;
+    border-radius: 1.625em;
   }
 
   .cardwok-2 {
@@ -1210,7 +1210,7 @@ label {
     height: 31em;
     background: #fff;
     border: 0.0625em solid #dfe1e6;
-    border-radius: 0.0625em;
+    border-radius: 1.625em;
   }
 
   .snapshoot-1 {
@@ -1221,6 +1221,7 @@ label {
     background-size: 34em 30em;
     border-radius: 0.5em;
     max-width: 100%;
+    margin-left: 0.5em;
   }
 
   .snapshoot2 {
@@ -1240,6 +1241,7 @@ label {
     background-image: url(img/Snapshoot\ Portfolio3.svg);
     background-repeat: no-repeat;
     background-size: 34em 30em;
+    margin-left: 0.5em;
   }
 
   .snapshoot-4 {
