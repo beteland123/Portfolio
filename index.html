@@ -16,16 +16,23 @@
         <div class="logop">
            <a href="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?w=740&t=st=1679754948~exp=1679755548~hmac=0c558f4c834b90047b09f02528084de9fa31f91b87758d3a182d7b6f333523a9" class="mylogo"> My logo</a> 
         </div>
-        <nav ><img src="img/1.jpg" class="icon" ><nav>
+        <nav >
+            <ul class="hidden">
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>contact</li>
+            </ul>
+            <img src="img/1.jpg" class="icon" >
+        <nav>
     </header>
     
     
     <section class="headline">
         <div class="text">
-            <h1 class="primery-text">I'm Betel. Glad to see you!</h1>
+            <h1 class="primery-text">I'm BetelAnd. Glad to see you!</h1>
         <p class="body2">I'm a software developer ! I can help you build project,feature,or 
             website look through some of my work and experiance!
-            if you like what you see  and have project to be coded don't hesitate to contact me
+            if you like what you see  and have project you need coded don't hesitate to contact me
         </p>
        
         <p class="connect">LET’S CONNECT</p>
@@ -53,7 +60,7 @@
 </div>
 <section class="works">
     <section class="cardwok-1">
-        <div class="snapshoot"><img src="img/Snapshoot Portfolio.png" class="image"></div>
+        <div class="snapshoot-1"></div>
         <section class="leftbloack">
             <p class="primery">
                 <h2 class="project-title">
@@ -81,9 +88,9 @@
             </p>
             <div class="tags">
                 <ul class="tag">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javascript</li>
+                    <li id="html">html</li>
+                    <li id="css">css</li>
+                    <li id="js">javascript</li>
                 </ul>
             </div>
             <div class="Action">
@@ -92,23 +99,27 @@
         </section>
 
     </section>
-    <section class="cardwok-1">
-        <div class="snapshoot"><img src="img/Snapshoot Portfolio2.png" class="image"></div>
-        <section class="leftbloack">
+    <section class="cardwok-2">
+        <div class="snapshoot2"></div>
+        <section class="leftbloack2">
             <p class="primery">
                 <h2 class="project-title">
                     Multi-Post Stories
                 </h2>
                 <div class="frame2">
-                    <div class="client">
-                        <h3 >
+                    <div class="client" id="ctop">
+                        <h3 class="DESKTOP-HIDDEN" >
                         CANOPY
+                        </h3>
+                        <h3 class="TO-BE-HIDDEN">
+                            FACEBOOK
                         </h3>
                     </div>
                     
                     <div class="counter"><img src="img/Counter.png"></div>
                     <div class="role">
-                        <h3> Back End Dev</h3>
+                        <h3 class="DESKTOP-HIDDEN"> Back End Dev</h3>
+                        <h3 class="TO-BE-HIDDEN"> FULL STACK Dev</h3>
                     </div>
                     <div class="counter"><img src="img/Counter.png"></div>
                     <div class="year">
@@ -116,14 +127,17 @@
                     </div>
                 </div>
             </p>
-            <p class="pri">
-                A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
+            
+                <p  class="pri" id="DESKTOP-HIDDEN">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <p  class="pri" id="TO-BE-HIDDEN">Experimental content creation feature that allows users to 
+                    add to an existing story over the course of a day without spamming their friends.</p>
+            
             <div class="tags">
                 <ul class="tag">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javascript</li>
+                    <li id="html">html</li>
+                    <li class="TO-BE-HIDDEN" id="ruby">Ruby on Rails</li>
+                    <li id="css">css</li>
+                    <li id="js">javascript</li>
                 </ul>
             </div>
             <div class="Action">
@@ -133,22 +147,29 @@
 
     </section>
     <section class="cardwok-1">
-        <div class="snapshoot"><img src="img/Snapshoot Portfolio3.png" class="image"></div>
+        <div class="snapshoot-3"></div>
         <section class="leftbloack">
             <p class="primery">
-                <h2 class="project-title">
+                <h2 class="project-title" id="DESKTOP-HIDDEN">
                     Tonic
                 </h2>
+                <h2 class="project-title" id="TO-BE-HIDDEN">
+                    FACEBOOK 360
+                </h2>
                 <div class="frame2">
-                    <div class="client">
-                        <h3 >
-                        CANOPY
-                        </h3>
+                    <div class="client" id="ctop">
+                        <h3 class="DESKTOP-HIDDEN" >
+                            CANOPY
+                            </h3>
+                            <h3 class="TO-BE-HIDDEN">
+                                FACEBOOK
+                         </h3>
                     </div>
                     
                     <div class="counter"><img src="img/Counter.png"></div>
                     <div class="role">
-                        <h3 > Back End Dev</h3>
+                        <h3 class="DESKTOP-HIDDEN"> Back End Dev</h3>
+                        <h3 class="TO-BE-HIDDEN"> FULL STACK Dev</h3>
                     </div>
                     <div class="counter"><img src="img/Counter.png"></div>
                     <div class="year">
@@ -156,54 +177,71 @@
                     </div>
                 </div>
             </p>
-            <p class="pri">
+            <p class="pri" id="DESKTOP-HIDDEN">
                 A daily selection of privately personalized reads; no accounts or sign-ups required.
             </p>
+            <P class="pri" id="TO-BE-HIDDEN">
+                Exploring the future of media in Facebook's first Virtual Reality app;
+                 a place to discover and enjoy 360 photos and videos on Gear VR.
+            </P>
             <div class="tags">
                 <ul class="tag">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javascript</li>
+                    <li id="html">html</li>
+                    <li class="TO-BE-HIDDEN" id="ruby">Ruby on Rails</li>
+                    <li id="css">css</li>
+                    <li id="js">javascript</li>
                 </ul>
             </div>
             <div class="Action">
-                <button class="btn">See project</button>
+                <button class="btn" id="blue-btn">See project</button>
             </div>
         </section>
 
     </section>
-    <section class="cardwok-1">
-        <div class="snapshoot"><img src="img/Snapshoot Portfolio4.png" class="image"></div>
-        <section class="leftbloack">
+    <section class="cardwok-2">
+        <div class="snapshoot-4"></div>
+        <section class="leftbloack2">
             <p class="primery">
-                <h2 class="project-title">
+                <h2 class="project-title" id="DESKTOP-HIDDEN">
                     Multi-Post Stories
                 </h2>
+                <h2 class="project-title" id="TO-BE-HIDDEN">
+                    Uber Navigation
+                </h2>
                 <div class="frame2">
-                    <div class="client">
-                        <h3 >
-                        CANOPY
-                        </h3>
+                    <div class="client2" id="ctop">
+                        <h3 class="DESKTOP-HIDDEN" >
+                            CANOPY
+                            </h3>
+                            <h3 class="TO-BE-HIDDEN">
+                                UBER
+                         </h3>
                     </div>
                     
                     <div class="counter"><img src="img/Counter.png"></div>
                     <div class="role">
-                        <h3 > Back End Dev</h3>
+                        <h3 class="DESKTOP-HIDDEN"> Back End Dev</h3>
+                        <h3 class="TO-BE-HIDDEN"> lead Developer</h3>
                     </div>
                     <div class="counter"><img src="img/Counter.png"></div>
                     <div class="year">
-                        <h3>2015</h3>
+                        <h3 class="DESKTOP-HIDDEN"> 2015</h3>
+                        <h3 class="TO-BE-HIDDEN"> 2018</h3>
                     </div>
                 </div>
             </p>
-            <p class="pri">
+            <p class="pri" id="DESKTOP-HIDDEN">
                 A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>
+            <p class="pri" id="TO-BE-HIDDEN">
+                A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
             </p>
             <div class="tags">
                 <ul class="tag">
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javascript</li>
+                    <li id="html">html</li>
+                    <li class="TO-BE-HIDDEN" id="ruby">Ruby on Rails</li>
+                    <li id="css">css</li>
+                    <li id="js">javascript</li>
                 </ul>
             </div>
             <div class="Action">
@@ -214,6 +252,7 @@
     </section>
    
 </section>
+
 <section class="about-section">
     <section class="top">
         <h2 class="prim-text">About my self</h2>
@@ -240,7 +279,7 @@
         
     </div>
     <div class="Action">
-        <button class="bt">Get My Resume</button>
+        <button class="bt" id="abt-btn">Get My Resume</button>
     </div>
     </section>
 
@@ -283,9 +322,10 @@
             </div>
         </div>
         <hr>
-    </section>
-   </section>
-   
+  
+</section>
+</section>
+<section class="about-contact">
 <section class="contact">
     <h2 class="contact-prim" >Contact me</h2>
     <p class="contact-body">If you have an application you are interested in developing, 
@@ -296,12 +336,10 @@
                 <li>
                      <label  for="name"> Name</label>
                      <input type="text" placeholder="Lorem Ipsum"  maxlength="30" id="name" required>
-                    
                 </li>
                 <li>
                     <label for="mail"> email</label>
                     <input type="email" placeholder="loremipsum@gmail.com"   id="mail" required>
-                    
                 </li>
                 <li>
                     <label for="txtarea">msg</label>
@@ -312,11 +350,11 @@
                         Get in touch
                     </button>
                 </li>
-                
+
             </ul>
         </form>
 </section>
-      
-
+</section>
+     
 </body>
 </html>
