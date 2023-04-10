@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # :green_book: Table of Contents
 - [:book: About the Project](#about-project)
   - [:hammer_and_wrench: Built With](#built-with)
@@ -42,13 +41,17 @@ responsive mobile , media screen and flexbox.
   </ul>
 </details>
 ### Key Features <a name="key-features"></a>
-- **[it can disaply the home of the portifolo]**
-- **[it has linit integrated with it]**
-- **[it has responsive nanture with differnet screen]**
+
+- [ ]**[it can disaply the home of the portifolo]**
+- [ ]**[it has linit integrated with it]**
+- [ ]**[it has responsive nanture with differnet screen]**
 ## :rocket: Live Demo <a name="live-demo"></a>
+
 > [Live Demo Link]( https://beteland123.github.io/prortifolio/ )
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :computer: Getting Started <a name="getting-started"></a>
+
 ### Prerequisites
 > In order to run this project you need: To have a code edtitor like visual strudio, download git control system,download node  and configure linter in your local computer
 ```pre
@@ -73,29 +76,47 @@ Install this project with:git and npm install
   ```
 - inspect the website if is responsive using diffrent scrren size
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
+
 ## :busts_in_silhouette: Authors <a name="authors"></a>
+
 :bust_in_silhouette: **Betel Andarge**
+
 - GitHub: [Betel Andarge](https://github.com/beteland123)
 - Linkedin-[Betel Andarge](https://www.linkedin.com/in/betel-andarge-1b9446223)
+
+
 ## :telescope: Future Features <a name="future-features"></a>
+
 - [ ] I will  add the webpage for refrall links
 - [ ] Add some animation
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
+
 ## :handshake: Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
+
 ## :star:️ Show your support <a name="support"></a>
+
 If you like this project email me through my email address...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- ACKNOWLEDGEMENTS -->
+
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
+
 I would like to thank my Microvese partner who helped me alot when I struggle to configure flexbox
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
+
 ## :memo: License <a name="license"></a>
+
 This project is [MIT](https://github.com/beteland123/prortifolio/blob/main/LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
