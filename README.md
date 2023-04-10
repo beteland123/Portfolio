@@ -43,7 +43,7 @@ responsive mobile , media screen and flexbox.
 - **[it has responsive nanture with differnet screen]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link] not avaliable
+- [https://beteland123.github.io/prortifolio/] 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
