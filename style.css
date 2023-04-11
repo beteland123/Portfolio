@@ -6,6 +6,10 @@
     display: none;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .background {
     width: 100%;
     position: absolute;
