@@ -210,7 +210,7 @@
     right: 14.625em;
     bottom: 10.5em;
     top: 32.875em;
-    color: #7f8cff;
+    color: #495bfd;
   }
 
   .works {
@@ -358,7 +358,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    color: #7a869a;
+    color: #5c749e;
   }
 
   .year {
@@ -376,7 +376,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    color: #7a869a;
+    color: #5c749e;
   }
 
   .pri {
@@ -528,7 +528,8 @@
     right: 14.625em;
     bottom: 10.5em;
     top: 32.875em;
-    color: #7f8cff;
+    color: #495bfd;
+    font-weight: normal;
   }
 
   .frame1 {
@@ -1160,7 +1161,7 @@ label {
     font-weight: 500;
     font-size: 1em;
     line-height: 1.5em;
-    color: #7f8cff;
+    color: #495bfd;
   }
 
   .vector {
@@ -1538,7 +1539,7 @@ label {
     font-weight: 500;
     font-size: 1em;
     line-height: 1.5em;
-    color: #7f8cff;
+    color: #495bfd;
   }
 
   .bt {
