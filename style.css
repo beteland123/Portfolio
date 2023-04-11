@@ -414,7 +414,7 @@
     background: #ebebff;
     box-sizing: border-box;
     border-radius: 1.5625em;
-    color: #7f8cff;
+    color: #364aff;
     width: 6.25em;
     padding-left: 1em;
   }
@@ -806,7 +806,7 @@
   }
 
   #txtarea::placeholder {
-    color: #b3bac5;
+    color: #616468;
   }
 
   label {
@@ -1410,7 +1410,7 @@ label {
     background: #ebebff;
     box-sizing: border-box;
     border-radius: 1.5625em;
-    color: #7f8cff;
+    color: #364aff;
     padding-left: 1em;
     display: flex;
     flex-direction: row;
@@ -1765,7 +1765,7 @@ label {
   }
 
   #txtarea::placeholder {
-    color: #b3bac5;
+    color: #616468;
   }
 
   label {
