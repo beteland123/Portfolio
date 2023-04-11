@@ -19,9 +19,9 @@
         </div>
         <nav >
             <ul class="hidden">
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>contact</li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact-form">Contact</a></li>
             </ul>
             <img src="img/1.jpg" class="icon" alt="Hamburger menu button" >
         <nav>
@@ -59,7 +59,7 @@
         
     </section>
 </div>
-<section class="works">
+<section id="portfolio" class="works">
     <section class="cardwok-1">
         <div class="snapshoot-1"></div>
         <section class="leftbloack">
@@ -254,9 +254,9 @@
    
 </section>
 
-<section class="about-section">
+<section id="about-me" class="about-section">
     <section class="top">
-        <h2 class="prim-text">About my self</h2>
+        <h2 class="prim-text">About Myself</h2>
         <p class="abt">Hello I’m a software developer! I can help you build a product , 
             feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
             don’t hesitate to contact me.
@@ -326,7 +326,7 @@
   
 </section>
 </section>
-<section class="about-contact">
+<section id="contact-form" class="about-contact">
 <section class="contact">
     <h2 class="contact-prim" >Contact me</h2>
     <p class="contact-body">If you have an application you are interested in developing, 
@@ -336,15 +336,15 @@
             <ul class="form-ul">
                 <li>
                      <label  for="name"> Name</label>
-                     <input type="text" placeholder="Lorem Ipsum"  maxlength="30" id="name" required>
+                     <input type="text" placeholder="Lorem Ipsum"  maxlength="30" id="name" name="name" required>
                 </li>
                 <li>
                     <label for="mail"> email</label>
-                    <input type="email" placeholder="loremipsum@gmail.com"   id="mail" required>
+                    <input type="email" placeholder="loremipsum@gmail.com"   id="mail" name="mail" required>
                 </li>
                 <li>
                     <label for="txtarea">msg</label>
-                    <textarea  type="text" placeholder="write your message here"  maxlength="500" id="txtarea" required></textarea>
+                    <textarea  type="text" placeholder="write your message here"  maxlength="500" id="txtarea" name="txtarea" required></textarea>
                 </li>
                 <li>
                     <button value="submit" class="get-in-touch">
