@@ -22,17 +22,31 @@ hum.addEventListener('click', () => {
   headline.classList.toggle('head');
 });
 
-for (const list of navItems) {
-  list.addEventListener('click', () => {
-	hum.classList.toggle('active');
-	menuNav.classList.toggle('show');
-	back.classList.toggle('mobile');
-	toolbar.classList.toggle('mobile');
-	works.classList.toggle('mobile-hide');
-	contact.classList.toggle('mobile-hide');
-	about.classList.toggle('mobile-hide');
-	body.classList.toggle('blue');
-	headline.classList.toggle('head');
+navItems.forEach((e) => {
+  e.addEventListener('click', () => {
+    hum.classList.toggle('active');
+    menuNav.classList.toggle('show');
+    back.classList.toggle('mobile');
+    toolbar.classList.toggle('mobile');
+    works.classList.toggle('mobile-hide');
+    contact.classList.toggle('mobile-hide');
+    about.classList.toggle('mobile-hide');
+    body.classList.toggle('blue');
+    headline.classList.toggle('head');
   });
-}
+});
 
+// for (const list of navItems) {
+//   list.addEventListener('click', () => {
+//     hum.classList.toggle('active');
+//     menuNav.classList.toggle('show');
+//     back.classList.toggle('mobile');
+//     toolbar.classList.toggle('mobile');
+//     works.classList.toggle('mobile-hide');
+//     contact.classList.toggle('mobile-hide');
+//     about.classList.toggle('mobile-hide');
+//     body.classList.toggle('blue');
+//     headline.classList.toggle('head');
+//   });
+// }
+// eslint does not allow for of loops, use forEach instead.
