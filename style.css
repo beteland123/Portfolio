@@ -1,5 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
 
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .hidden.show {
     display: block; /* show the mobile menu when the "show" class is added */
@@ -1128,6 +1133,7 @@ label {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 0;
     gap: 0.5em;
     width: 12.625em;
@@ -1137,7 +1143,6 @@ label {
   }
 
   .hidden li {
-    width: 3.875em;
     height: 1.25em;
     font-weight: 500;
     font-size: 15px;
@@ -1145,6 +1150,9 @@ label {
     display: flex;
     align-items: center;
     text-align: center;
+  }
+  
+  .hidden li a {
     color: #344563;
   }
 
