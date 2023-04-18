@@ -8,22 +8,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-portiflio-project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
-    <div class="back">
+    
+    <div class="back" id="back">
      <header class="toolbar">
         
+
         <div class="logop">
-           <a href="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?w=740&t=st=1679754948~exp=1679755548~hmac=0c558f4c834b90047b09f02528084de9fa31f91b87758d3a182d7b6f333523a9" class="mylogo"> My logo</a> 
+           <a href="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?w=740&t=st=1679754948~exp=1679755548~hmac=0c558f4c834b90047b09f02528084de9fa31f91b87758d3a182d7b6f333523a9" class="mylogo" id="mylogo"> My logo</a> 
+    
         </div>
-        <nav >
-            <ul class="hidden">
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>contact</li>
+        
+        <nav  >
+            <ul class="hidden mainu-nav">
+                <li class="nav-item">Portfolio</li>
+                <li class="nav-item">About</li>
+                <li class="nav-item">contact</li>
             </ul>
-            <img src="img/1.jpg" class="icon" >
-        <nav>
+       
+            <div class="hamburger-menu">
+                <div class="bar-top"><img src="img/hum.png" alt="hamburger-menu"></div>
+                <div class="bar-middle"><img src="img/hum.png" alt="hamburger-menu"></div>
+                <div class="bar-bottom"><img src="img/hum.png" alt="hamburger-menu"></div>
+              </div>
+            </nav>
     </header>
     
     
@@ -355,6 +365,7 @@
         </form>
 </section>
 </section>
-     
+<script src="app.js">
+</script>    
 </body>
 </html>

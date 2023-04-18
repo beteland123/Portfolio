@@ -1,11 +1,118 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
+  .mainu-nav.show {
+    display: block; /* show the mobile menu when the "show" class is added */
+    width: 3.875em;
+    height: 1.25em;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 0.9375em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #0f151f;
+    z-index: 9999;
+    /* add other styles as needed */
+  }
+  .back.mobile
+  {
+    background: #6070FF;
+mix-blend-mode: multiply;
+  }
+  .back.blue{
+    background-color: #6070FF;
+  }
+  .works.mobile-hide{
+    display: none;
+  }
+.about-section.mobile-hide{
+  display: none;
+}
+.about-contact.mobile-hide{
+  display: none;
+}
+   .hidden li{
+    height: 24px;
+left: 0px;
+right: 68px;
+top: calc(50% - 24px/2);
+
+/* Theme 1 / H3 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+/* or 138% */
+
+display: flex;
+align-items: center;
+
+/* Theme 1 /  Neutrals 11 */
+
+color: #FFFFFF;
+
+   }
+
+
+  .hamburger-menu {
+    margin-left: 5rem;
+    margin-top: 0em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 1.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+    margin-right: 1em;
+    top: calc(50% - 2.5em / 2);
+    
+  }
+  .bar-top,
+  .bar-middle,
+  .bar-bottom {
+    height: 0.25em;
+   
+
+    background: rgb(31, 30, 30);
+    border-radius: 5px;
+    margin: 0.10em 0;
+    transform-origin: left;
+    transition: all 0.5s;
+  }
+  .hamburger-menu:hover .bar-top {
+    transform: rotate(28deg);
+  }
+  .hamburger-menu:hover .bar-middle {
+    transform:translateX(1rem);
+    opacity: 0;
+  }
+  .hamburger-menu:hover .bar-bottom {
+    transform: rotate(-25deg);
+  }
+  
+
   .TO-BE-HIDDEN,
   #TO-BE-HIDDEN {
     display: none;
   }
+  
+  .hidden.in-active{
+    font-weight: 600;
+    font-size: 32px;
+     line-height: 44px;
+/* or 138% */
 
+    display: flex;
+   align-items: center;
+
+/* Theme 1 /  Neutrals 11 */
+
+color: #FFFFFF;
+  }
   .background {
     width: 100%;
     position: absolute;
@@ -1074,6 +1181,10 @@ label {
   .bt {
     font-family: "Poppins", sans-serif;
     font-style: normal;
+  }
+ 
+  .cancel{
+    display: none;
   }
 
   .mylogo {
