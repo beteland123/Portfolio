@@ -111,6 +111,10 @@
     display: none;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .background {
     width: 100%;
     position: absolute;
@@ -311,7 +315,7 @@
     right: 14.625em;
     bottom: 10.5em;
     top: 32.875em;
-    color: #7f8cff;
+    color: #495bfd;
   }
 
   .works {
@@ -459,7 +463,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    color: #7a869a;
+    color: #5c749e;
   }
 
   .year {
@@ -477,7 +481,7 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    color: #7a869a;
+    color: #5c749e;
   }
 
   .pri {
@@ -515,7 +519,7 @@
     background: #ebebff;
     box-sizing: border-box;
     border-radius: 1.5625em;
-    color: #7f8cff;
+    color: #364aff;
     width: 6.25em;
     padding-left: 1em;
   }
@@ -629,7 +633,8 @@
     right: 14.625em;
     bottom: 10.5em;
     top: 32.875em;
-    color: #7f8cff;
+    color: #495bfd;
+    font-weight: normal;
   }
 
   .frame1 {
@@ -906,7 +911,7 @@
   }
 
   #txtarea::placeholder {
-    color: #b3bac5;
+    color: #616468;
   }
 
   label {
@@ -1265,7 +1270,7 @@ label {
     font-weight: 500;
     font-size: 1em;
     line-height: 1.5em;
-    color: #7f8cff;
+    color: #495bfd;
   }
 
   .vector {
@@ -1514,7 +1519,7 @@ label {
     background: #ebebff;
     box-sizing: border-box;
     border-radius: 1.5625em;
-    color: #7f8cff;
+    color: #364aff;
     padding-left: 1em;
     display: flex;
     flex-direction: row;
@@ -1643,7 +1648,7 @@ label {
     font-weight: 500;
     font-size: 1em;
     line-height: 1.5em;
-    color: #7f8cff;
+    color: #495bfd;
   }
 
   .bt {
@@ -1869,7 +1874,7 @@ label {
   }
 
   #txtarea::placeholder {
-    color: #b3bac5;
+    color: #616468;
   }
 
   label {

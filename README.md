@@ -18,6 +18,7 @@
 # :book: [My-portifolio] <a name="about-project"></a>
 > This project is called My portiflo which is developed for the purpose of Designing a prortiflio website and for practicing what I have learned about
 responsive mobile , media screen and flexbox.
+- outtline of about the project: [video](https://www.loom.com/share/d4bb5f2651bb41f293f9e4128ef1d097)
 ## :hammer_and_wrench: Built With <a name="built-with"> using Html and CSS</a>
 ### Tech Stack <a name="tech-stack"></a>
 <details>
