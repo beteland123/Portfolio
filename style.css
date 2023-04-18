@@ -1,7 +1,7 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
-  .mainu-nav.show {
+  .hidden.show {
     display: block; /* show the mobile menu when the "show" class is added */
     width: 3.875em;
     height: 1.25em;
@@ -78,29 +78,32 @@
     margin-right: 1em;
     top: calc(50% - 2.5em / 2);
   }
-
+  
   .bar-top,
   .bar-middle,
   .bar-bottom {
     height: 0.25em;
-    background: rgb(31, 30, 30);
+    background: rgb(44, 41, 41);
     border-radius: 5px;
     margin: 0.1em 0;
     transform-origin: left;
     transition: all 0.5s;
   }
 
-  .hamburger-menu:hover .bar-top {
+  .hamburger-menu.active .bar-top {
     transform: rotate(28deg);
+    color: white;
   }
 
-  .hamburger-menu:hover .bar-middle {
+  .hamburger-menu.active .bar-middle {
     transform: translateX(1rem);
     opacity: 0;
+    color: white;
   }
 
-  .hamburger-menu:hover .bar-bottom {
+  .hamburger-menu.active .bar-bottom {
     transform: rotate(-25deg);
+    color: white;
   }
 
   .TO-BE-HIDDEN,
@@ -108,21 +111,7 @@
     display: none;
   }
 
-  .hidden.in-active {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-
-    /* or 138% */
-
-    display: flex;
-    align-items: center;
-
-    /* Theme 1 /  Neutrals 11 */
-
-    color: #fff;
-  }
-
+ 
   .background {
     width: 100%;
     position: absolute;

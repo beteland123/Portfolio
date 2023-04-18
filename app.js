@@ -3,7 +3,7 @@ const back = document.querySelector('.back');
 const works = document.querySelector('.works');
 const about = document.querySelector('.about-section');
 const contact = document.querySelector('.about-contact');
-const menuNav = document.querySelector('.mainu-nav');
+const menuNav = document.querySelector('.hidden');
 const navItems = document.querySelectorAll('.nav-item');
 const toolbar = document.querySelector('.toolbar');
 const body = document.querySelector('body');
@@ -24,7 +24,15 @@ hum.addEventListener('click', () => {
 
 for (const list of navItems) {
   list.addEventListener('click', () => {
-    menuNav.classList.toggle('show'); // corrected class name
-    back.classList.toggle('back');
+	hum.classList.toggle('active');
+	menuNav.classList.toggle('show');
+	back.classList.toggle('mobile');
+	toolbar.classList.toggle('mobile');
+	works.classList.toggle('mobile-hide');
+	contact.classList.toggle('mobile-hide');
+	about.classList.toggle('mobile-hide');
+	body.classList.toggle('blue');
+	headline.classList.toggle('head');
   });
 }
+
