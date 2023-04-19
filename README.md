@@ -87,7 +87,10 @@ Install this project with:git and npm install
 - GitHub: [Betel Andarge](https://github.com/beteland123)
 - Linkedin-[Betel Andarge](https://www.linkedin.com/in/betel-andarge-1b9446223)
 
-
+ ## :bust_in_silhouette:    **Jesus (Edu) Moreno**
+- GitHub: [@Xecyc](https://github.com/Xecyc/)
+- Twitter: [@jesm0r](https://twitter.com/jesm0r)
+- LinkedIn: [jesús Moreno](https://linkedin.com/in/jesús-moreno-b4276a178/)
 ## :telescope: Future Features <a name="future-features"></a>
 
 - [ ] I will  add the webpage for refrall links
