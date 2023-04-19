@@ -30,7 +30,6 @@
   }
 
   body.blue {
-    /* background-color: #8793fd; */
     background: #6070ff;
     mix-blend-mode: multiply;
   }
