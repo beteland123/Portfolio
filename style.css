@@ -6,126 +6,74 @@
 }
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
+  .leftbloack.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    gap: 0.002em;
+    width: 23.4375em;
+    height: 38.5em;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 0.0625em;
+    margin-left: 0;
+  }
+
   a {
     text-decoration: none;
   }
 
-  .close,
-  .close li.active {
+  .mobile-menu {
     display: none;
-  }
-
-  .close i.show {
-    display: block;
-    position: relative;
-    left: -45%;
-    color: #d8e2dd;
-    top: 2em;
-    cursor: pointer;
-  }
-
-  .hidden.show {
-    display: flex; /* show the mobile menu when the "show" class is added */
-    width: 327px;
-    height: 100%;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 0.9375em;
+    position: fixed;
+    background: #6070ffcf;
+    width: 100%;
+    height: 100vh;
+    gap: 40px;
+    top: 0;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #f7f8fa;
-    z-index: 9999;
-    opacity: 5;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    animation: moveInBottomLeft;
   }
+
+  .mobile-menu-close {
+    position: relative;
+    left: 19em;
+  }
+
+  .mobile-menu > a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    padding: 0;
+    margin-top: 0.9em;
+    height: max-content;
+  }
+
+
 
   li {
     list-style-type: none;
   }
 
-  body.blue {
-    background: #6070ff;
-    mix-blend-mode: multiply;
-  }
-
-  .logop.mobile {
-    mix-blend-mode: multiply;
-    background: #6070ff;
-    opacity: 100%;
-    filter: blur(10px);
-  }
-
-  .headline.head {
-    opacity: 1;
-    filter: blur(10px);
-    mix-blend-mode: multiply;
-  }
-
-  .works.mobile-hide {
-    display: none;
-  }
-
-  .about-section.mobile-hide {
-    display: none;
-  }
-
-  .about-contact.mobile-hide {
-    display: none;
-  }
-
-  .hidden li {
-    height: 1.5em;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2em;
-    line-height: 2.75em;
-    display: flex;
-    align-items: center;
-    color: black;
-    margin-left: 0;
-    margin-right: 10em;
-    position: relative;
-    left: -105px;
-    bottom: -53px;
-    box-sizing: border-box;
-  }
-
-  .hidden .nav-item a { /** hamburger menu text color **/
-    color: white;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 1px 1px 2px rgba(0, 0, 0, 0.5);
-  }
-
-  .hidden .nav-item:nth-child(2) {
-    left: -119px;
-  }
-
-  .hamburger-menu {
-    margin-left: 0;
-    margin-top: 0;
-    cursor: pointer;
-    margin-right: 1em;
-    position: relative;
-    left: -42%;
-    height: 100vh;
-  }
-
-  .hamburger-menu.show {
-    margin-left: 0;
-    margin-top: 0;
-    cursor: pointer;
-    margin-right: 1em;
-    position: relative;
-    left: -42%;
-    height: 100vh;
-  }
-
-  .hamburger-menu.active {
-    display: none;
-  }
-
   .TO-BE-HIDDEN,
   #TO-BE-HIDDEN {
+    display: none;
+  }
+
+  .menu {
     display: none;
   }
 
@@ -181,11 +129,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.625em 1.25em;
+    padding: 0;
     width: 6.25em;
     height: 1.5em;
     left: 0.75em;
-    top: calc(50% - 2.5em / 2);
   }
 
   .mylogo {
@@ -1078,6 +1025,32 @@ label {
 }
 
 @media only screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    gap: 0.5em;
+    width: 12.625em;
+    height: 2.5em;
+    left: 64.9375em;
+    top: calc(50% - 2.5em / 2);
+    color: #344563;
+  }
+
+  .menu a:hover {
+    color: #6070ff;
+  }
+
+  .menu a.active {
+    color: #6070ff;
+  }
+
   .DESKTOP-HIDDEN,
   #DESKTOP-HIDDEN {
     display: none;
@@ -1151,7 +1124,7 @@ label {
     top: calc(50% - 2.5em / 2);
   }
 
-  .hidden li {
+  .mobile-nav-item {
     height: 1.25em;
     font-weight: 500;
     font-size: 15px;
@@ -1159,9 +1132,6 @@ label {
     display: flex;
     align-items: center;
     text-align: center;
-  }
-
-  .hidden li a {
     color: #344563;
   }
 
@@ -1186,7 +1156,8 @@ label {
   .mylogo,
   .primery-text,
   .body2,
-  .hidden li,
+  .menu li,
+  .mobile-nav-item,
   .connect,
   .project-title,
   .pri,
