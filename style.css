@@ -9,7 +9,18 @@
   a {
     text-decoration: none;
   }
-
+  .close,
+  .close li active{
+    display: none;
+  }
+  .close i.show{
+    display: block;
+    position: relative;   
+    left: -45%;
+   color: #d8e2dd;
+   top: 2em;
+   cursor: pointer;
+  }
   .hidden.show {
     display: flex; /* show the mobile menu when the "show" class is added */
     width: 327px;
@@ -34,13 +45,18 @@
     mix-blend-mode: multiply;
   }
 
-  .back.mobile {
+  .logop.mobile {
     mix-blend-mode: multiply;
+    background:#6070ff;
+    opacity: 100%;
+    filter: blur(10px);
   }
 
   .headline.head {
     opacity: 1;
     filter: blur(10px);
+    mix-blend-mode: multiply;
+    
   }
 
   .works.mobile-hide {
@@ -74,59 +90,37 @@
   }
 
   .hidden .nav-item a { /** hamburger menu text color **/
-    color: #000;
+    color: white;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5), 1px 1px 2px rgba(0,0,0,0.5);
   }
 
   .hidden .nav-item:nth-child(2) {
-    left: -100px;
+    left: -119px;
   }
 
   .hamburger-menu {
-    margin-left: 5rem;
+    margin-left: 0rem;
     margin-top: 0;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    height: 1.5rem;
-    width: 2.5rem;
     cursor: pointer;
     margin-right: 1em;
+    position: relative;
+    left: -42%;
+    height: 100vh;
   }
-
-  .exit.active {
-    position: fixed;
-    right: 23%;
+  
+   .hamburger-menu.show{
+    margin-left: 0rem;
+    margin-top: 0;
+    cursor: pointer;
+    margin-right: 1em;
+    position: relative;
+    left: -42%;
+    height: 100vh;
+   }
+  .hamburger-menu.active{
+    display: none;
   }
-
-  .bar-top,
-  .bar-middle,
-  .bar-bottom {
-    height: 0.25em;
-    background: rgb(44, 41, 41);
-    border-radius: 5px;
-    margin: 0.1em 0;
-    transform-origin: left;
-    transition: all 0.5s;
-  }
-
-  .hamburger-menu.active .bar-top {
-    transform: rotate(28deg);
-    background-color: #67798e;
-    opacity: 1;
-  }
-
-  .hamburger-menu.active .bar-middle {
-    transform: translateX(1rem);
-    opacity: 0;
-    background-color: rgb(255, 255, 255);
-  }
-
-  .hamburger-menu.active .bar-bottom {
-    transform: rotate(-25deg);
-    background-color: #67798e;
-    opacity: 1;
-  }
-
+  
   .TO-BE-HIDDEN,
   #TO-BE-HIDDEN {
     display: none;
@@ -1942,5 +1936,9 @@ label {
 
   h1:hover {
     color: #4053fc;
+  }
+  .hamburger-menu,
+  .close{
+    display: none;
   }
 }
