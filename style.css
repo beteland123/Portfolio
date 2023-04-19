@@ -6,6 +6,10 @@
 }
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
+  a {
+    text-decoration: none;
+  }
+
   .hidden.show {
     display: flex; /* show the mobile menu when the "show" class is added */
     width: 327px;
@@ -27,7 +31,7 @@
 
   body.blue {
     /* background-color: #8793fd; */
-    background: #6070FF;
+    background: #6070ff;
     mix-blend-mode: multiply;
   }
 
@@ -75,7 +79,7 @@
   }
 
   .hidden .nav-item:nth-child(2) {
-    left: -120px;
+    left: -100px;
   }
 
   .hamburger-menu {
@@ -92,7 +96,7 @@
 
   .exit.active {
     position: fixed;
-    right: 20%;
+    right: 23%;
   }
 
   .bar-top,
@@ -108,7 +112,7 @@
 
   .hamburger-menu.active .bar-top {
     transform: rotate(28deg);
-    background-color: #67798E;
+    background-color: #67798e;
     opacity: 1;
   }
 
@@ -120,17 +124,13 @@
 
   .hamburger-menu.active .bar-bottom {
     transform: rotate(-25deg);
-    background-color: #67798E;
+    background-color: #67798e;
     opacity: 1;
   }
 
   .TO-BE-HIDDEN,
   #TO-BE-HIDDEN {
     display: none;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   .background {
