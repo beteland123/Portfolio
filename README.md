@@ -48,7 +48,7 @@ responsive mobile , media screen and flexbox.
 - [ ]**[it has responsive nanture with differnet screen]**
 ## :rocket: Live Demo <a name="live-demo"></a>
 
-> [Live Demo Link]( https://beteland123.github.io/prortifolio/ )
+> [Live Demo Link]( https://beteland123.github.io/Portfolio/ )
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :computer: Getting Started <a name="getting-started"></a>
