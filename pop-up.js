@@ -53,10 +53,10 @@ const works = [
   ];
   
 const workCardShouldReverse = (index) => {
-    if (index % 2 === 0) {
-      return 'row-reverse work-item-2';
+    if (index % 2 !== 0) {
+      return 'row-reverse card';
     }
-    return 'work-item-1';
+    return 'card';
   };
   
   const breadcrumbsHtml = (workObj, key, bread = '') => {
