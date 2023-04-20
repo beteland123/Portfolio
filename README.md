@@ -18,6 +18,7 @@
 # :book: [My-portifolio] <a name="about-project"></a>
 > This project is called My portiflo which is developed for the purpose of Designing a prortiflio website and for practicing what I have learned about
 responsive mobile , media screen and flexbox.
+- outtline of about the project: [video](https://www.loom.com/share/d4bb5f2651bb41f293f9e4128ef1d097)
 ## :hammer_and_wrench: Built With <a name="built-with"> using Html and CSS</a>
 ### Tech Stack <a name="tech-stack"></a>
 <details>
@@ -47,7 +48,7 @@ responsive mobile , media screen and flexbox.
 - [ ]**[it has responsive nanture with differnet screen]**
 ## :rocket: Live Demo <a name="live-demo"></a>
 
-> [Live Demo Link]( https://beteland123.github.io/prortifolio/ )
+> [Live Demo Link]( https://beteland123.github.io/Portfolio/ )
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :computer: Getting Started <a name="getting-started"></a>
@@ -86,7 +87,10 @@ Install this project with:git and npm install
 - GitHub: [Betel Andarge](https://github.com/beteland123)
 - Linkedin-[Betel Andarge](https://www.linkedin.com/in/betel-andarge-1b9446223)
 
-
+ ## :bust_in_silhouette:    **Jesus (Edu) Moreno**
+- GitHub: [@Xecyc](https://github.com/Xecyc/)
+- Twitter: [@jesm0r](https://twitter.com/jesm0r)
+- LinkedIn: [jesús Moreno](https://linkedin.com/in/jesús-moreno-b4276a178/)
 ## :telescope: Future Features <a name="future-features"></a>
 
 - [ ] I will  add the webpage for refrall links
