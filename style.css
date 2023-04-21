@@ -10,6 +10,11 @@
     text-decoration: none;
   }
 
+  .modal-content-image {
+    width: 100%;
+    height: auto;
+  }
+
   .mobile-menu {
     display: none;
     position: fixed;
@@ -406,7 +411,7 @@
     display: none;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 23.437em;
     height: 100vh;
     z-index: 99999;
     background-color: #dededebb;
@@ -461,7 +466,7 @@
 
   .modal-close {
     position: relative;
-    left: 27em;
+    left: 20em;
     top: 4em;
   }
 
@@ -996,7 +1001,7 @@ label {
 }
 
 #txtarea {
-  height: 10.625em;
+  height: 8.625em;
   width: 20.4375em;
   left: 1.5em;
   top: 320.3125em;
@@ -1287,10 +1292,12 @@ label {
   }
 
   .work-card {
-    width: 544px;
-    height: 448px;
-    margin: auto;
-    padding: 20px;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+    padding-top: 0;
+    gap: 0.3em;
+    width: 34em;
+    height: 30.8125em;
     line-height: 2;
     display: flex;
     flex-direction: column;
@@ -1313,9 +1320,16 @@ label {
 
   .card h3 {
     font-style: normal;
+    min-width: 5em;
+    height: 1.875em;
     font-weight: 700;
-    font-size: 32px;
-    margin-top: 0.2em;
+    font-size: 2.5em;
+    line-height: 3.25em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #091e42;
+    display: flex;
+    flex-wrap: nowrap;
   }
 
   .main-project-1 img {
@@ -1439,9 +1453,11 @@ label {
   }
 
   .modal {
+    margin-left: 1em;
+    margin-right: 1em;
     padding: 1rem;
     display: none;
-    width: 80%;
+    width: 75em;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -1513,7 +1529,7 @@ label {
     padding: 1em;
     gap: 0.002em;
     width: 72.25em;
-    height: 38.5em;
+    height: 31.5em;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 0.0625em;
@@ -1522,13 +1538,14 @@ label {
 
   .modal-close {
     position: relative;
-    left: 45em;
+    left: 55em;
     top: 4em;
   }
 
   .cardwok-1 img {
     width: 34em;
     height: 30em;
+    max-width: 100%;
   }
 
   .snapshoot-1 {
