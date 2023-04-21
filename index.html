@@ -174,7 +174,7 @@
     <p class="contact-body">If you have an application you are interested in developing, 
         a feature that you need built or a project that needs coding. 
         I’d love to help with it! </p>
-        <form action="https://formspree.io/f/mpzewvlb" method="post" >
+        <form action="https://formspree.io/f/mpzewvlb" method="post" id="form-field">
             <ul class="form-ul">
                 <li>
                      <label  for="name"> Name</label>
@@ -187,6 +187,7 @@
                 <li>
                     <label for="txtarea">msg</label>
                     <textarea  type="text" placeholder="write your message here"  maxlength="500" id="txtarea" name="txtarea" required></textarea>
+                    <p class="error"></p>
                 </li>
                 <li>
                     <button value="submit" class="get-in-touch">
@@ -300,6 +301,9 @@
 <script src="app.js">
 </script> 
 <script src="pop-up.js">
-</script>    
+</script>  
+<script src="form-validation.js" >
+
+</script> 
 </body>
 </html>

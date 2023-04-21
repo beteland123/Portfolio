@@ -28,7 +28,7 @@ const works = [
   {
     title: 'FACEBOOK 360',
     description:
-         " Exploring the future of media in Facebook's first Virtual Reality app a place to discover and enjoy 360 photos and videos on Gear VR.",
+    'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featured_image: 'img/Snapshoot3.svg',
