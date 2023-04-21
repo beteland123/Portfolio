@@ -3,6 +3,7 @@
 * {
   list-style: none;
   text-decoration: none;
+  outline: 3px solid red;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
@@ -271,7 +272,6 @@
   .main-projects {
     align-items: center;
     justify-content: center;
-    width: 70em;
     height: 168.375em;
     left: 0;
     top: 57.3125em;
