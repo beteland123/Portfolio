@@ -1424,6 +1424,9 @@ label {
     font-weight: 600;
     font-size: 0.8125rem;
     line-height: 1rem;
+    margin-top: 0;
+    margin-bottom: 3em;
+    color: #7a869a;
   }
 
   .work-period ul li:first-child {
@@ -1442,6 +1445,10 @@ label {
     line-height: 2.75rem;
     color: #172b4d;
     text-transform: capitalize;
+    margin-bottom: 0;
+    margin-left: 0.4em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
   }
 
   .modal-description {
