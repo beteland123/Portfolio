@@ -1,87 +1,86 @@
 const workCardContainer = document.querySelector('.main-projects');
 
-
 const works = [
-    {
-      title: 'Tonic',
-      description:
+  {
+    title: 'Tonic',
+    description:
        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      details:
+    details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-      featured_image: 'img/Snapshoot\ Portfolio.png',
-      lang_list: [ 'html', 'css','javascript'],
-      breadcrumbs: ['CANOPY', 'BACK END DEV', '2015'],
-      source: 'https://github.com/beteland123',
-      live_demo: 'https://github.com/beteland123',
-    },
-    {
-        title: ' Multi-Post Stories',
-        description:
+    featured_image: 'img/Snapshoot.png',
+    lang_list: ['html', 'css', 'javascript'],
+    breadcrumbs: ['CANOPY', 'BACK END DEV', '2015'],
+    source: 'https://github.com/beteland123',
+    live_demo: 'https://github.com/beteland123',
+  },
+  {
+    title: ' Multi-Post Stories',
+    description:
          'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        details:
+    details:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-        featured_image: 'img/Snapshoot\ Portfolio2.png',
-        lang_list: [ 'html','css','javascript'],
-        breadcrumbs: ['CANOPY','BACK END DEV' ,'2015'],
-        source: 'https://github.com/beteland123',
-        live_demo: 'https://github.com/beteland123',
-      },
-      {
-        title:'FACEBOOK 360',
-         description:
+    featured_image: 'img/Snapshoot2.png',
+    lang_list: ['html', 'css', 'javascript'],
+    breadcrumbs: ['CANOPY', 'BACK END DEV', '2015'],
+    source: 'https://github.com/beteland123',
+    live_demo: 'https://github.com/beteland123',
+  },
+  {
+    title: 'FACEBOOK 360',
+    description:
          " Exploring the future of media in Facebook's first Virtual Reality app a place to discover and enjoy 360 photos and videos on Gear VR.",
-        details:
+    details:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-        featured_image: 'img/Snapshoot\ Portfolio3.png',
-        lang_list: [ 'html','css','javascript'],
-        breadcrumbs: ['FACEBOOK','FULL STACK Dev', '2015'],
-        source: 'https://github.com/beteland123',
-        live_demo: 'https://github.com/beteland123',
-      },
-      {
-        title: 'Multi-Post Stories',
-        description:
+    featured_image: 'img/Snapshoot3.svg',
+    lang_list: ['html', 'css', 'javascript'],
+    breadcrumbs: ['FACEBOOK', 'FULL STACK Dev', '2015'],
+    source: 'https://github.com/beteland123',
+    live_demo: 'https://github.com/beteland123',
+  },
+  {
+    title: 'Multi-Post Stories',
+    description:
          'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        details:
+    details:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-        featured_image: 'img/Snapshoot\ Portfolio.png',
-        lang_list: [ 'html','css','javascript'],
-        breadcrumbs: ['CANOPY', 'BACK END DEV', '2015'],
-        source: 'https://github.com/beteland123',
-        live_demo: 'https://github.com/beteland123',
-      },
-  ];
-  
+    featured_image: 'img/Snapshoot.png',
+    lang_list: ['html', 'css', 'javascript'],
+    breadcrumbs: ['CANOPY', 'BACK END DEV', '2015'],
+    source: 'https://github.com/beteland123',
+    live_demo: 'https://github.com/beteland123',
+  },
+];
+
 const workCardShouldReverse = (index) => {
-    if (index % 2 === 0) {
-      return 'row-reverse card';
+  if (index % 2 === 0) {
+    return 'row-reverse card';
+  }
+  return 'card';
+};
+
+const breadcrumbsHtml = (workObj, key, bread = '') => {
+  /* eslint-disable no-restricted-syntax */
+  for (const breadcrumb in workObj[key].breadcrumbs) {
+    if (breadcrumb) {
+      bread += `<li>${workObj[key].breadcrumbs[breadcrumb]}</li>`;
     }
-    return 'card';
-  };
-  
-  const breadcrumbsHtml = (workObj, key, bread = '') => {
-    /* eslint-disable no-restricted-syntax */
-    for (const breadcrumb in workObj[key].breadcrumbs) {
-      if (breadcrumb) {
-        bread += `<li>${workObj[key].breadcrumbs[breadcrumb]}</li>`;
-      }
+  }
+  /* eslint-enable no-restricted-syntax */
+  return bread;
+};
+
+const languageHtml = (workObj, key, langList = '') => {
+  /* eslint-disable no-restricted-syntax */
+  for (const lang in workObj[key].lang_list) {
+    if (lang) {
+      langList += `<li><span>${workObj[key].lang_list[lang]}</span></li>`;
     }
-    /* eslint-enable no-restricted-syntax */
-    return bread;
-  };
-  
-  const languageHtml = (workObj, key, langList = '') => {
-    /* eslint-disable no-restricted-syntax */
-    for (const lang in workObj[key].lang_list) {
-      if (lang) {
-        langList += `<li><span>${workObj[key].lang_list[lang]}</span></li>`;
-      }
-    }
-    /* eslint-enable no-restricted-syntax */
-    return langList;
-  };
-  
-  let workCard = '';
+  }
+  /* eslint-enable no-restricted-syntax */
+  return langList;
+};
+
+let workCard = '';
 
 const appendWorks = (works) => {
   for (let i = 0; i < works.length; i += 1) {
