@@ -124,14 +124,18 @@ const showWorkModal = (work) => { // fetch the work from the works object
   document.querySelector('#work-modal-source').href = workDetails.source;// add source link
   document.querySelector('.modal').style.display = 'flex';// show the modal with transition
 };
-
+const dataPoped = document.querySelector('.body');
 seeProjectButtons.forEach((button) => {
   button.addEventListener('click', (event) => {
     showWorkModal(event.target.dataset.work);
     document.querySelector('.modal').style.display = 'flex';
+    window.scrollTo(0, 0);
+    dataPoped.style.overflow = 'hidden';
+    event.stopPropagation();
   }, false);
 });
 
 closeModal.addEventListener('click', () => {
   document.querySelector('.modal').style.display = 'none';
+  dataPoped.style.overflow = 'visible';
 });
