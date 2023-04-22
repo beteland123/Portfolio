@@ -139,3 +139,4 @@ closeModal.addEventListener('click', () => {
   document.querySelector('.modal').style.display = 'none';
   dataPoped.style.overflow = 'visible';
 });
+
