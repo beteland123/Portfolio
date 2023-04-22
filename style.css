@@ -1049,7 +1049,32 @@ label {
   box-shadow: #020736;
 }
 
+.error {
+  font-size: 700;
+  left: 1.5em;
+  margin: 0;
+  margin-left: 0;
+  color: red;
+  height: 3.5em;
+  width: 19em;
+  display: flex;
+  border-radius: 9px;
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 768px) {
+  .error {
+    font-size: 700;
+    left: 1.5em;
+    margin-right: 20em;
+    margin-left: 23em;
+    color: red;
+    height: 3.5em;
+    width: 19em;
+    display: flex;
+    border-radius: 9px;
+  }
+
   .modal-content-links > a {
     display: flex;
     justify-content: center;
