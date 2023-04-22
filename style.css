@@ -384,6 +384,7 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
     padding-left: 0;
+    height: 1em;
   }
 
   .work-modal-languages li {
@@ -429,30 +430,33 @@
     position: fixed;
     top: 0;
     width: 23.437em;
-    height: 100vh;
+    height: 100%;
     z-index: 99999;
     background-color: #dededebb;
     backdrop-filter: blur(0.3125rem);
     -webkit-backdrop-filter: blur(0.3125rem);
     -moz-backdrop-filter: blur(0.3125rem);
-    overflow: scroll;
-    overflow-y: auto;
     border: 2px solid #000;
   }
 
   .modal-wrap {
+    width: 90%;
+    height: 95%;
     padding: 1rem;
     background-color: #fff;
     border: 1px solid #272729;
     border-radius: 16px;
     justify-content: flex-start;
     overflow: scroll;
-    overflow-y: auto;
   }
 
   .modal-header {
     justify-content: space-between;
     align-items: center;
+  }
+
+  .work-categories {
+    padding-left: 0;
   }
 
   .modal-title {
@@ -494,16 +498,12 @@
 
   .modal-content-links > a {
     justify-content: center;
-    margin-right: 3em;
+    margin-right: 0.5em;
     font-size: 1em;
     color: #7f8cff;
     box-sizing: border-box;
     align-items: center;
     padding: 0.75em;
-    gap: 0.625em;
-    width: 9.875em;
-    height: 3em;
-    left: 0;
     border: 0.0625em solid #6070ff;
     border-radius: 0.5em;
     margin-left: 0;
@@ -1506,7 +1506,7 @@ label {
     padding: 1rem;
     display: none;
     width: 75em;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     z-index: 99999;
@@ -1516,7 +1516,6 @@ label {
     -moz-backdrop-filter: blur(0.3125rem);
     overflow: scroll;
     align-items: center;
-    overflow-y: auto;
   }
 
   .flex-column {
@@ -1530,7 +1529,7 @@ label {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     justify-content: flex-start;
-    overflow: scroll;
+    overflow: unset;
     width: 80%;
     height: auto;
   }
