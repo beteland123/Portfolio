@@ -1075,6 +1075,10 @@ label {
     border-radius: 9px;
   }
 
+  #btn-li {
+    margin-left: 0;
+  }
+
   .modal-content-links > a {
     display: flex;
     justify-content: center;
@@ -1144,8 +1148,11 @@ label {
     display: flex;
     flex-direction: row;
     gap: 1.25em;
-    width: 37em;
-    padding-left: 5em;
+
+    /* width: 37em; */
+
+    /* padding-left: 5em; */
+    padding: 0;
   }
 
   li {
@@ -1161,11 +1168,11 @@ label {
   .toolbar {
     display: flex;
     flex-direction: row;
-    width: 70em;
+    width: 99%;
     height: 4.5em;
     left: 0;
     top: 0;
-    gap: 49.9375em;
+    gap: 51%;
   }
 
   .hidden {
@@ -1247,17 +1254,15 @@ label {
   .back {
     background-color: #fff;
     border-bottom-left-radius: 10%;
-    width: 77em;
-    height: 57.25em;
+    height: 45.25em;
     left: 0;
     top: 0.0625em;
     margin-right: 0;
   }
 
   .headline {
-    padding: 0.125em 1.5em;
-    width: 74em;
-    height: 52.875em;
+    width: 99%;
+    height: 38.875em;
     left: 0;
     top: 4.4375em;
     background-position: absolute;
@@ -1273,10 +1278,10 @@ label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 10.125em;
-    padding-left: 11.25em;
+    padding-top: 1.125em;
+    padding-left: 5.25em;
     gap: 0.075em;
-    width: 57.5em;
+    width: 90%;
     height: 16.75em;
     top: calc(50% - 16.75em / 2);
   }
@@ -1295,7 +1300,7 @@ label {
   }
 
   .body2 {
-    width: 45.5em;
+    width: 78%;
     height: 6.125em;
     font-weight: 400;
     font-size: 1.25em;
@@ -1340,7 +1345,6 @@ label {
     justify-content: center;
     grid-template-rows: auto auto auto auto;
     padding: 7.75em;
-    width: 75em;
     height: 168.375em;
     left: 0;
     top: 57.3125em;
@@ -1360,7 +1364,6 @@ label {
     padding-bottom: 1.5em;
     padding-top: 0;
     gap: 0.3em;
-    width: 34em;
     height: 30.8125em;
     line-height: 2;
     display: flex;
@@ -1401,7 +1404,7 @@ label {
   }
 
   .card-description {
-    width: 31em;
+    /* width: 31em; */
     height: 5.625em;
     font-weight: 400;
     font-size: 1em;
@@ -1530,7 +1533,7 @@ label {
     margin-right: 1em;
     padding: 1rem;
     display: none;
-    width: 75em;
+    width: 90%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -1599,7 +1602,6 @@ label {
     align-items: center;
     padding: 1em;
     gap: 0.002em;
-    width: 72.25em;
     height: 31.5em;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -1609,14 +1611,13 @@ label {
 
   .modal-close {
     position: relative;
-    left: 55em;
+    left: 85%;
     top: 4em;
   }
 
   .cardwok-1 img {
-    width: 34em;
-    height: 30em;
-    max-width: 100%;
+    height: 25em;
+    max-width: 50%;
   }
 
   .main-projects:nth-child(2) img {
@@ -1724,32 +1725,28 @@ label {
   }
 
   .about-section {
+    gap: 1em;
     background-color: #fff;
     border-top-right-radius: 10%;
     display: flex;
     flex-direction: row;
     height: 40.75em;
-    width: 75em;
-    margin-left: 1em;
+    width: 99%;
   }
 
   .top {
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.75em;
-    width: 27.9375em;
-    height: 14.9375em;
+    width: 50%;
+    height: 19.9375em;
     padding-left: 1em;
     padding-top: 3em;
-    padding-right: 3em;
     padding-bottom: 3em;
   }
 
   .prim-text {
-    width: 27.9375em;
     height: 2.0625em;
     font-weight: 700;
     font-size: 2.5em;
@@ -1758,11 +1755,12 @@ label {
     align-items: center;
     margin-bottom: 0;
     color: #091e42;
+    width: 10em;
   }
 
   .abt {
+    width: 100%;
     margin-top: 0;
-    width: 27.9375em;
     height: 6.375em;
     font-weight: 400;
     font-size: 1em;
@@ -1807,15 +1805,11 @@ label {
   }
 
   .skill-list {
-    width: 40em;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin-top: 2em;
     height: 14.9375em;
-  }
-
-  .languages-list {
-    width: 40em;
   }
 
   .frame12 {
@@ -1825,16 +1819,14 @@ label {
     gap: 0.625em;
     align-items: flex-start;
     padding: 0;
-    width: 42.75em;
     height: 13.5em;
   }
 
   .frame7 {
     display: flex;
     flex-direction: row;
-    gap: 0.625em;
+    gap: 12.625em;
     justify-content: space-around;
-    width: 42.75em;
     height: 4.5em;
   }
 
@@ -1865,17 +1857,15 @@ label {
   .frame9 {
     display: flex;
     flex-direction: row;
-    width: 37em;
     height: 4.5em;
-    padding-left: 5em;
   }
 
   .frame8 {
-    gap: 20em;
+    gap: 11em;
   }
 
   .frame9 {
-    gap: 24.7em;
+    gap: 16em;
   }
 
   .arrow {
@@ -1911,22 +1901,21 @@ label {
     right: 0;
     bottom: 0;
     border-top: 0.0625em solid #fff;
-    width: 30em;
-    margin-left: 4em;
+    width: 50%;
   }
 
   .contact {
-    width: 75em;
+    margin-left: 0;
+    width: 99%;
     height: 52.875em;
     left: 0;
     top: 320.3125em;
     border-radius: [object object]px;
-    background-image:
-      url(img/mini-contact-img.svg),
-      url(img/contact\ form-\ background-shape-desktop.svg);
+    background-image: url(img/mini-contact-img.svg), url(img/contact\ form-\ background-shape-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 65em 44.91875em, 90em 52.875em;
+    background-size: 64em 44.91875em, 90em 52.875em;
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 0;
     gap: 1em;
@@ -1934,21 +1923,20 @@ label {
   }
 
   .form-ul {
+    justify-content: center;
+    width: 99%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1em;
     margin-top: 0;
-    justify-content: center;
   }
 
   .about-contact {
     background-color: white;
-    width: 75em;
-    margin-left: 1em;
   }
 
   .contact-prim {
-    width: 20em;
     height: 3.5em;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1956,17 +1944,16 @@ label {
     font-size: 2.5em;
     line-height: 3.25em;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
     margin-bottom: 0;
-    padding-left: 10em;
     margin-top: 2em;
   }
 
   .contact-body {
-    padding-left: 4em;
-    width: 28.5625em;
+    width: 50%;
     height: 6.375em;
     left: 1.5em;
     top: 300.125em;
@@ -1977,8 +1964,6 @@ label {
     line-height: 1.75em;
     text-align: center;
     color: #ebebff;
-    margin-left: 10em;
-    margin-right: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -1994,7 +1979,6 @@ label {
     border-radius: 0.5em;
     height: 3em;
     width: 27.9375em;
-    margin-left: 25em;
   }
 
   #name::placeholder {
@@ -2013,14 +1997,26 @@ label {
     display: none;
   }
 
+  .txt-area-li {
+    align-items: center;
+    display: flex;
+    width: 89%;
+    flex-direction: column;
+  }
+
+  form {
+    width: 94%;
+    display: flex;
+    justify-content: center;
+  }
+
   #txtarea {
+    align-self: center;
     height: 10.625em;
-    width: 27.9375em;
+    width: 26.9375em;
     left: 1.5em;
     top: 320.3125em;
     border-radius: 0;
-    margin-right: 1em;
-    margin-left: 25em;
   }
 
   .get-in-touch {
@@ -2044,8 +2040,6 @@ label {
     background: #4053fc;
     color: #fff;
   }
-
-  /* animation on h1 */
 
   h1 {
     color: #091e42;

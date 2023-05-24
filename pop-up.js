@@ -2,52 +2,52 @@ const workCardContainer = document.querySelector('.main-projects');
 
 const works = [
   {
-    title: 'Tonic',
+    title: 'Tech womens',
     description:
-       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+       ' It showcase what I have learned about HTML,CSS and javaScript with DOM manipulation to create dynamic content. ',
     details:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featured_image: 'img/Snapshoot.png',
+      'A joyfull program, that belives in women to learn technology and develope softwares with people around the world!',
+    featured_image: 'img/tech-women.png',
     lang_list: ['html', 'css', 'javascript'],
-    breadcrumbs: ['CANOPY', 'BACK END DEV', '2015'],
-    source: 'https://github.com/beteland123',
-    live_demo: 'https://github.com/beteland123',
+    breadcrumbs: ['Front END DEV', '2023'],
+    source: 'https://github.com/beteland123/My-first-capstone-project',
+    live_demo: 'https://beteland123.github.io/My-first-capstone-project/',
   },
   {
-    title: ' Multi-Post Stories',
+    title: ' Todo list App',
     description:
-         'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+         'A todo list app designed to list a task to be done.This project is called To do list which is developed for the purpose of design a website with webpack bundling and for practicing what I have learned about ES6 and dynamic website',
     details:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featured_image: 'img/Snapshoot2.png',
-    lang_list: ['html', 'css', 'javascript'],
-    breadcrumbs: ['CANOPY', 'BACK END DEV', '2015'],
-    source: 'https://github.com/beteland123',
-    live_demo: 'https://github.com/beteland123',
+        'Users can add new task, delete competed ones, and make edit if the task needs to be changed.',
+    featured_image: 'img/cap-to-dolist.png',
+    lang_list: ['html', 'css', 'javascript', 'WebPack'],
+    breadcrumbs: ['Front-end', '2023'],
+    source: 'https://github.com/beteland123/Todo-list',
+    live_demo: 'https://beteland123.github.io/Todo-list/',
   },
   {
-    title: 'FACEBOOK 360',
+    title: 'Awseome Books',
     description:
-    'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    'This project is called awesome books, which allows users to add and remove books in local storage.',
     details:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featured_image: 'img/Snapshoot3.svg',
+        'It follows JavaScript best practice using ES6 and Dom manipulation to render the page dynamically and to redirect the page with out going to open new page. ',
+    featured_image: 'img/as-b.png',
     lang_list: ['html', 'css', 'javascript'],
-    breadcrumbs: ['FACEBOOK', 'FULL STACK Dev', '2015'],
-    source: 'https://github.com/beteland123',
-    live_demo: 'https://github.com/beteland123',
+    breadcrumbs: ['FACEBOOK', 'FrontEnd', '2023'],
+    source: 'https://github.com/beteland123/Awesome-books-with-ES6',
+    live_demo: 'https://github.com/beteland123/Awesome-books-with-ES6',
   },
   {
-    title: 'Multi-Post Stories',
+    title: 'Tech womens',
     description:
-         'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+       ' A website for an online webprogramming course for females.It showcase what I have learned about HTML,CSS and javaScript with DOM manipulation to create dynamic content. ',
     details:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featured_image: 'img/Snapshoot.png',
+      'A joyfull program, that belives in women to learn technology and develope softwares with people around the world!',
+    featured_image: 'img/tech3.png',
     lang_list: ['html', 'css', 'javascript'],
-    breadcrumbs: ['CANOPY', 'BACK END DEV', '2015'],
-    source: 'https://github.com/beteland123',
-    live_demo: 'https://github.com/beteland123',
+    breadcrumbs: ['Front END DEV', '2023'],
+    source: 'https://github.com/beteland123/My-first-capstone-project',
+    live_demo: 'https://beteland123.github.io/My-first-capstone-project/',
   },
 ];
 
