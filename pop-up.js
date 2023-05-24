@@ -7,7 +7,7 @@ const works = [
        ' It showcase what I have learned about HTML,CSS and javaScript with DOM manipulation to create dynamic content. ',
     details:
       'A joyfull program, that belives in women to learn technology and develope softwares with people around the world!',
-    featured_image: 'img/tech-women.png',
+    featured_image: 'img/tech-women.Png',
     lang_list: ['html', 'css', 'javascript'],
     breadcrumbs: ['Front END DEV', '2023'],
     source: 'https://github.com/beteland123/My-first-capstone-project',
@@ -19,7 +19,7 @@ const works = [
          'A todo list app designed to list a task to be done.This project is called To do list which is developed for the purpose of design a website with webpack bundling and for practicing what I have learned about ES6 and dynamic website',
     details:
         'Users can add new task, delete competed ones, and make edit if the task needs to be changed.',
-    featured_image: 'img/cap-to-dolist.png',
+    featured_image: 'img/cap-to-dolist.Png',
     lang_list: ['html', 'css', 'javascript', 'WebPack'],
     breadcrumbs: ['Front-end', '2023'],
     source: 'https://github.com/beteland123/Todo-list',
@@ -31,7 +31,7 @@ const works = [
     'This project is called awesome books, which allows users to add and remove books in local storage.',
     details:
         'It follows JavaScript best practice using ES6 and Dom manipulation to render the page dynamically and to redirect the page with out going to open new page. ',
-    featured_image: 'img/as-b.png',
+    featured_image: 'img/as.Png',
     lang_list: ['html', 'css', 'javascript'],
     breadcrumbs: ['FACEBOOK', 'FrontEnd', '2023'],
     source: 'https://github.com/beteland123/Awesome-books-with-ES6',
@@ -43,7 +43,7 @@ const works = [
        ' A website for an online webprogramming course for females.It showcase what I have learned about HTML,CSS and javaScript with DOM manipulation to create dynamic content. ',
     details:
       'A joyfull program, that belives in women to learn technology and develope softwares with people around the world!',
-    featured_image: 'img/tech3.png',
+    featured_image: 'img/tech3.Png',
     lang_list: ['html', 'css', 'javascript'],
     breadcrumbs: ['Front END DEV', '2023'],
     source: 'https://github.com/beteland123/My-first-capstone-project',

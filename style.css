@@ -1913,14 +1913,13 @@ label {
     border-radius: [object object]px;
     background-image: url(img/mini-contact-img.svg), url(img/contact\ form-\ background-shape-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 64em 44.91875em, 90em 52.875em;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 0;
     gap: 1em;
     margin-top: 0;
-  }
+}
 
   .form-ul {
     justify-content: center;
@@ -1937,24 +1936,24 @@ label {
   }
 
   .contact-prim {
-    height: 3.5em;
+    height: 1.5em;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5em;
-    line-height: 3.25em;
+    font-size: 1.5em;
+    line-height: 2.25em;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
     margin-bottom: 0;
-    margin-top: 2em;
   }
 
+
   .contact-body {
-    width: 50%;
-    height: 6.375em;
+    width: 56%;
+    height: 4.375em;
     left: 1.5em;
     top: 300.125em;
     font-family: "Poppins", sans-serif;
@@ -1966,7 +1965,7 @@ label {
     color: #ebebff;
     margin-top: 0;
     margin-bottom: 0;
-  }
+}
 
   #name,
   #mail {
@@ -2012,12 +2011,12 @@ label {
 
   #txtarea {
     align-self: center;
-    height: 10.625em;
+    height: 7.625em;
     width: 26.9375em;
     left: 1.5em;
     top: 320.3125em;
     border-radius: 0;
-  }
+}
 
   .get-in-touch {
     font-family: "Poppins", sans-serif;
