@@ -16,7 +16,7 @@ const works = [
   {
     title: ' Todo list App',
     description:
-         'A todo list app designed to list a task to be done.This project is called To do list which is developed for the purpose of design a website with webpack bundling and for practicing what I have learned about ES6 and dynamic website',
+         'A todo list app designed to list a task to be done.It is developed for the purpose of design a website with webpack bundling and for practicing  about ES6 and dynamic website',
     details:
         'Users can add new task, delete competed ones, and make edit if the task needs to be changed.',
     featured_image: 'img/cap-to-dolist.PNG',
