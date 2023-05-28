@@ -4,7 +4,7 @@ const works = [
   {
     title: 'Tech womens',
     description:
-       ' It showcase what I have learned about HTML,CSS and javaScript with DOM manipulation to create dynamic content. ',
+       ' It showcases what I have learned about HTML,CSS and javaScript with DOM manipulation to create dynamic content. ',
     details:
       'A joyfull program, that belives in women to learn technology and develope softwares with people around the world!',
     featured_image: 'img/t.PNG',
