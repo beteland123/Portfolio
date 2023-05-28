@@ -7,7 +7,7 @@ const works = [
        ' It showcase what I have learned about HTML,CSS and javaScript with DOM manipulation to create dynamic content. ',
     details:
       'A joyfull program, that belives in women to learn technology and develope softwares with people around the world!',
-    featured_image: 'img/tech-women.PNG',
+    featured_image: 'img/t.PNG',
     lang_list: ['html', 'css', 'javascript'],
     breadcrumbs: ['Front END DEV', '2023'],
     source: 'https://github.com/beteland123/My-first-capstone-project',
