@@ -1531,7 +1531,7 @@ label {
     margin-right: 1em;
     padding: 1rem;
     display: none;
-    width: 90%;
+    width: 94%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -1556,7 +1556,7 @@ label {
     border-radius: 16px;
     justify-content: flex-start;
     overflow: unset;
-    width: 80%;
+    width: 74%;
     height: auto;
   }
 
